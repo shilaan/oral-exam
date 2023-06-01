@@ -1,0 +1,799 @@
+---
+title: "[Adverse Leader Selection & Evaluation]{style='font-size: 95px'}"
+#subtitle: "[**The Missing Link Between Ambition and Leader Effectiveness**]{style='font-size: 36px; font-weight: bold'}"
+#author: "[Shilaan Alzahawi]{style='font-size 30px; font-weight: bold; color: #8f8f8f'}"
+format: 
+  revealjs:
+    code-fold: false
+    code-summary: "Show code"
+    code-line-numbers: false
+    incremental: true
+    smaller: true
+    scrollable: true
+    theme: custom.scss
+    code-copy: true
+    slide-number: true
+    preview-links: true
+    self-contained: true
+    controls: true
+    overview: true
+    mouse-wheel: false
+execute: 
+  freeze: true
+---
+
+<!-- - Add HERI Study to Ambition  -->
+
+```{r}
+#| label: load-packages
+#| include: false
+
+library(tidyverse)
+library(icons)
+```
+
+## Leadership Matters 
+
+![](images/leadership.jpg "Leadership"){.absolute right="0" top="280" width="460" height="250"}
+
+<br></br>
+
+- **Critical** to the success of individuals, teams, organizations, and society at large
+- Strong **incentives** to place the right person in charge
+- **Despite** this importance and the strong incentives at play...
+
+. . . 
+
+<br></br>
+
+#### We fail to select the best leaders
+
+- 50 to 75% of selected leaders **fail** 
+
+::: aside
+Anderson & Brown, 2010; Fiedler, 1996; Hogan & Kaiser, 2005: p. 169
+:::
+
+
+## Adverse Leader Selection
+
+<br></br>
+
+- The **wrong** people make it to the **top**, and the **right** people do **not**
+  - Leader **over-emergence** & leader **under-emergence**
+- Leader **over-emergence**
+  - "The level of one's leader emergence is **higher** than the level of one's leader **effectiveness**"
+- Leader **under-emergence**
+  - "The level of one's leader emergence is **lower** than the level of one's leader **effectiveness**"
+
+::: aside
+Anderson & Brown, 2010; Fiedler, 1996; Hogan, Curphy, & Hogan, 1994; Lanaj & Hollenbeck, 2015
+:::
+
+## Costs to Leadership Failure 
+
+<br></br>
+
+- **Financial** costs
+  - $750,000 to 5 million per failed executive
+- **Psychological** costs
+  - 75% of working adults report **the most stressful aspect** of their job is their boss
+  - 70% of US workers would take a pay cut if someone would **fire** their boss
+  - Bosses are often the primary reasons employees **quit**
+- **Societal** costs
+  - Leadership scandals & ethical lapses
+  - Military disasters
+  
+::: aside
+DeVries & Kaiser, 2003; Dixon, 1976; Hogan & Kaiser, 2005; Hogan, 2007, p. 106; Hogan, Hogan, & Kaiser, 2011; Lombardo, Ruderman & McCauley, 1988: p. 201; Smart, 1999
+:::
+  
+## Why Are We So Bad At This?! 
+
+![](images/shutterstock_281218637.jpg "Leadership"){.absolute right="50" top="200" width="400" height="400"}
+
+
+
+<br></br>
+
+. . . 
+
+Why the **wrong** people make it to the **top**, and the **right** people do **not**... 
+
+. . . 
+
+<br></br>
+
+
+
+**Trait** lens
+
+- Ambition
+
+. . . 
+
+**Behavior** lens
+
+- (Un)certainty displays
+
+. . . 
+
+**Process** lens 
+
+- Opt-in selection mechanisms
+
+::: aside
+Alzahawi, Reit, & Flynn, *under review*; Alzahawi & Flynn, *under review*; Alzahawi & Flynn, *in prep*
+:::
+
+
+## Trait{.center style='font-size: 95px; text-align: center;'}
+
+## A Legend In One's Own Mind: The Missing Link Between Ambition and Leader Effectiveness{.center style='text-align: center;'}
+
+
+## Ambition ➙ Leader Emergence
+
+<br></br>
+
+:::: {.columns}
+
+::: {.column width="70%"}
+
+- Ambition is "a persistent and generalized striving for success, attainment, and accomplishment"
+
+- Ambitious individuals are more likely to emerge as leaders
+  - Higher levels of education
+  - Higher GPA
+  - More prestigious occupations 
+  - Higher ranking positions
+  - Higher salaries
+
+- But are ambitious individuals also more **effective** in leadership roles? 
+
+:::
+
+::: {.column width="30%"}
+![](https://i.pinimg.com/originals/f8/37/25/f83725a4ac1a52fba233d95399cfab94.jpg "Dali"){.absolute top="90" right="0" width="300" height="500"}
+:::
+
+::::
+
+
+::: aside
+De Volder & Lens, 1982; Jones, Sherman, & Hogan, 2017; Judge & Kammeyer-Mueller, 2012; Kim & Schneider, 2005 
+:::
+
+::: {.notes}
+Ambition is defined as a persistent and generalized striving for success, attainment, and accomplishment. We know from prior literature and our own work that there’s a strong link between ambition and leader emergence. Ambitious individuals obtain higher levels of education, they graduate with higher GPAs, they end up in more prestigious occupations, and they obtain higher rank as well as higher salaries. 
+
+But are these individuals who are highly ambitious and leadership-prone also more effective in leadership roles? 
+:::
+
+## Ambition ➙ Leader Effectiveness?
+
+![](images/self-aware.png "Self-awareness"){.absolute right="0" top="100" width="300" height="450"}
+
+<br></br>
+
+. . .
+
+**Self-awareness**: Individuals struggle to **gauge** their own effectiveness
+
+. . .
+
+**Self-serving biases**: Individuals often have **inflated** self-perceptions 
+
+. . .
+
+**Motivated reasoning**: Allure of **incentives** 
+
+. . .
+
+<br></br>
+<br></br>
+
+
+**H1**: Ambition is **positively** associated with **self**-rated leader effectiveness  
+
+. . .
+
+**H2**: Ambition is **not** associated with **other**-rated leader effectiveness  
+
+
+::: aside
+Alicke & Govorun, 2005; Anderson, Hildreth, & Howland, 2015; Atwater & Yammarino, 1992; Balcetis & Dunning, 2006; Chon & Sitkin, 2021; Dunning, Griffin, Milojkovic, & Ross, 1990; Festinger, 1957; Korman, 1970; Kruger & Dunning, 1999; Magee & Galinsky, 2008; Moore, Carter, & Yang, 2015; Spark & O’Connor, 2021
+:::
+
+::: {.notes}
+To answer this question, we rely on three lines of reasoning. 
+
+First, we know from the literature on self-awareness that individuals tend to struggle with making accurate self-assessments. It is generally hard to form accurate appraisals of our own leadership effectiveness. 
+
+Second, we know from research on self-serving biases that individuals tend to have inflated self-perceptions. 
+
+Third, leadership roles come with highly appealing rewards – for example, money, status, autonomy, and authority. And the allure of these incentives may lead individuals to engage in motivated reasoning, where ambitious individuals who are drawn to leadership roles for reasons unrelated to their effectiveness may inflate their self-perceptions to justify their high ambition. 
+
+In other words, we expect that ambitious individuals are more likely to fall prone to motivated reasoning, which reduces self-awareness, inflates self-perceptions, and causes a gap between self-assessments and third party-assessments of their leadership effectiveness.
+
+Based on this reasoning, we posit two hypotheses. Our first hypothesis is that there’s a positive relationship between ambition and self-rated leader effectiveness. Our second hypothesis is that there’s a null relationship between ambition and third-party ratings of leadership effectiveness.  
+:::
+
+## Is Ambition Well-Calibrated?
+
+![](images/leader.png){.absolute right="0" top="100" height="250" width="350"}
+
+
+- **Study 1A & 1B**: 360-degree assessments of executives
+  - *N* ratings = 3,813
+  - *N* leaders = 468
+  - Raters = Self, peers, subordinates, and managers
+- **Study 2**: Leadership competition among MBA students
+  - *N* ratings = 829
+  - *N* leaders = 181
+  - Raters = Expert judges
+- **Study 3**: Leadership task with random assignment of a nationally representative sample
+  - *N* ratings = 305
+  - *N* leaders = 101
+  - Raters = Group members
+
+::: {.footer}
+[`r icon_style(icons::academicons("preregistered"), scale = 2.5, fill = "#035AA6")` `r icon_style(icons::academicons("open-materials"), scale = 2.5, fill = "#035AA6")` `r icon_style(icons::academicons("open-data"), scale = 2.5, fill = "#035AA6")` [**bit.ly/ambition-osf**]{style="font-size: 150%"}](https://bit.ly/ambition-osf)
+:::
+
+
+::: {.notes}
+To test our hypotheses, we ran four studies.   
+
+In Study 1A and 1B, we obtained 360-degree assessments of executives, who were rated by themselves, their peers, their direct reports, and their supervisors.   
+
+In Study 2, we examined the relationship between the ambition of MBA students and their expert-rated effectiveness during a leadership skills competition.   
+
+In Study 3, we randomly assigned participants from a nationally representative sample to a leader or a follower role in a group decision-making task, and examined the relationship between leader ambition and follower-rated effectiveness.  
+:::
+
+## Analytic Approach 
+
+. . .
+
+**Null Hypothesis**: No relationship between ambition and third-party ratings  
+
+. . .
+
+**Alternative Hypothesis**: A relationship between ambition and third-party ratings 
+
+. . .
+
+::: panel-tabset
+
+## **Null Hypothesis Significance Tests**
+
+- Can we reject the **null hypothesis**?
+- *p* < .05: **Reject** the null hypothesis
+  - Interpreted as evidence for the alternative
+- *p* > .05 : **Inconclusive** 
+  - "**Fail to reject**" the null
+  - **Cannot** be used to accept the null
+  
+## **Statistical Equivalence Tests**
+
+- Can we reject the presence of a **meaningful effect**?
+- *p* < .05: **Reject** the presence of a meaningful effect
+  - Conclude **statistical equivalence**
+  - Declare **absence of a meaningful effect**
+- *p* > .05: **Inconclusive**
+  - "**Fail to reject**" the presence of a meaningful effect
+  - **Cannot** be used to declare presence of a meaningful effect
+  
+## **Bayesian Statistics**
+
+- Can we **accept** the null hypothesis? 
+- **Bayes factors**: How much do the data **support** the null hypothesis?
+- $BF_{0} > 1$: support for the **null** hypothesis over the alternative
+  - **Accept** the null, **reject** the alternative
+- $BF_{0} < 1$: support for the **alternative** hypothesis over the null
+  - **Accept** the alternative, **reject** the null
+  
+:::
+
+
+::: aside
+Cohen, 1994; Dienes, 2014; Fisher, 1925; Jeffreys, 1998; Lakens, Scheel, & Isager, 2018; Neyman & Pearson, 1992
+:::
+
+::: {.notes}
+
+A quick overview of our analytic approach. As you may recall, our second hypothesis is a null hypothesis---we propose that there is no relationship between ambition and third-party ratings of leadership effectiveness.  
+
+To assess the evidence for this hypothesis, we use a combination of three analytic techniques: null hypothesis significance tests, statistical equivalence tests, and Bayesian statistics.  
+
+When running significance tests, the main question that we can answer is "can we reject the null hypothesis"? If we obtain a p-value less than .05, we reject the null hypothesis, which we often interpret as indirect evidence for the alternative. If we obtain a p value greater than .05, however, the result is inconclusive. We fail to reject the null, and cannot accept the null hypothesis that there is no relationship between ambition and third-party ratings.
+
+Because the null hypothesis is core to our theorizing, we complement this traditional approach with two other tests. The first is a statistical equivalence test. When running an equivalence test, the main question that we can answer is "can we reject the presence of a meaningful effect"? When we obtain a p-value less than .05, we reject the presence of a meaningful effect and conclude statistical equivalence: this means that third-party ratings are equivalent regardless of a leader's level of ambition. In other words, we can declare that a meaningful effect is absent. 
+
+Our third test relies on Bayesian statistics. Here, we can also answer the question "can we accept the null hypothesis"? To answer this question, we compute Bayes Factors, which express how much the data support the null hypothesis over the alternative. If the Bayes Factor in favor of the null is greater than 1, this means that the data are more likely under the null hypothesis than under the alternative, and you accept the null as a result. 
+
+:::
+
+## Study 1A & 1B
+
+![](images/king.png){.absolute right="0" top="210" height="250" width="400"}
+
+- 360-degree **leadership assessments** completed by executives' managers, peers, and subordinates 
+<details>
+    <summary>
+    Show details
+    </summary>
+    ::: {.nonincremental}
+  - [The proprietary 360-degree assessment includes 50 items assessing  
+  10 leadership competencies (e.g., motivation, communication)]{style="color: #8f8f8f; font-weight: bold; font-size: 77%;"}
+  - [Two sample items for the motivation competency are  
+  “Motivates others to put forth greater effort” and   
+  “Recognizes others’ contributions”]{style="color: #8f8f8f; font-weight: bold; font-size: 77%;"}
+  :::
+    </details>
+- Executives reported a self-assessment and their **ambition**
+    <details>
+    <summary>
+    Show items
+    </summary>
+  ::: {.nonincremental}
+  - [My ultimate career aspiration is to be in a position of senior leadership]{style="color: #8f8f8f; font-weight: bold; font-size: 77%;"}
+  - [I have strong ambition when it comes to my career goals]{style="color: #8f8f8f; font-weight: bold; font-size: 77%;"}
+  - [I am highly motivated to get promoted quickly and often]{style="color: #8f8f8f; font-weight: bold; font-size: 77%;"}
+  - [I want my job to be highly respected by others]{style="color: #8f8f8f; font-weight: bold; font-size: 77%;"}
+  - [I am determined to have a highly successful career]{style="color: #8f8f8f; font-weight: bold; font-size: 77%;"}
+  - [It’s important to me to attain a high-status position in my career]{style="color: #8f8f8f; font-weight: bold; font-size: 77%;"}
+  - [I do NOT have a strong desire to advance far in my career (R)]{style="color: #8f8f8f; font-weight: bold; font-size: 77%;"}
+  :::
+    </details>
+- **Study 1A**: *N* = 1,371 ratings
+  - *n* = 177 self-ratings
+  - *n* = 1,194 other-ratings
+- **Study 1B**: *N* = 2,442 ratings
+  - *n* = 291 self-ratings
+  - *n* = 2,151 other-ratings
+
+
+::: {.footer}
+[`r icon_style(icons::academicons("preregistered"), scale = 2.5, fill = "#035AA6")` `r icon_style(icons::academicons("open-materials"), scale = 2.5, fill = "#035AA6")` `r icon_style(icons::academicons("open-data"), scale = 2.5, fill = "#035AA6")` [**bit.ly/ambition-osf**]{style="font-size: 150%"}](https://bit.ly/ambition-osf)
+:::
+
+::: {.notes}
+Thanks for bearing with me -- Let’s take a look at Study 1A and 1B. Our participants were managers enrolled in a one-year leadership development program. As part of the curriculum, they completed a 360-degree assessment of their leadership effectiveness, which was completed by themselves as well as their managers, peers, and direct reports. We obtained this archive of leadership evaluations, and also sent out our own survey to each manager in which they self-reported their ambition. 
+:::
+
+
+## Study 1: Results
+
+::: panel-tabset
+
+## **Hypothesis 1**
+
+![](images/360.jpeg){.absolute right="340" top="300" height="325" width="375"}
+
+**Positive** relationship between ambition and **self**-ratings of leadership effectiveness
+
+- Study 1A: *b* = 0.09, 95% CI [0.03, 0.16], *t*(175.04) = 2.85, *p* = .005 
+- Study 1B: *b* = 0.08, 95% CI [0.03, 0.13], *t*(288.95) = 3.05, *p* = .003 
+
+## **Hypothesis 2**
+
+<!-- ![](https://www.business2community.com/wp-content/uploads/2012/09/hires.jpg){.absolute right="0" top="350"} -->
+
+**Null** relationship between ambition and **other**-ratings of leadership effectiveness
+
+- Study 1A: *b* = 0.04, 95% CI [$-0.01$, $0.08$], *t*(172.57) = 1.46, *p* = .146 
+- Study 1B: *b* = 0.01, 95% CI [$-0.03$, $0.04$], *t*(289.02) = 0.41, *p* = .680 
+- Third-party ratings of leader effectiveness are **statistically equivalent**, regardless of ambition
+<details>
+    <summary>
+    Show details
+    </summary>
+  ::: {.nonincremental}
+  - 1A: Test against $\beta \pm .20$, *t*(172.57) = $-6.82$, *p* < .001
+  - 1B: Test against $\beta \pm .20$, *t*(289.02) = $-10.26$, *p* < .001
+  :::
+    </details>
+- **Bayes Factors** show **support for the null** hypothesis
+<details>
+    <summary>
+    Show details
+    </summary>
+  ::: {.nonincremental}
+  - 1A: $BF_{01}$ = 6.29
+  - 1B: $BF_{01}$ = 20.40
+  - The data are 6 to 20 times as likely under a null model
+  :::
+    </details>
+
+:::
+
+::: {.footer}
+[`r icon_style(icons::academicons("preregistered"), scale = 2.5, fill = "#035AA6")` `r icon_style(icons::academicons("open-materials"), scale = 2.5, fill = "#035AA6")` `r icon_style(icons::academicons("open-data"), scale = 2.5, fill = "#035AA6")` [**bit.ly/ambition-osf**]{style="font-size: 150%"}](https://bit.ly/ambition-osf)
+:::
+
+::: {.notes}
+For hypothesis 1, we predicted a positive relationship between ambition and self-ratings of leadership effectiveness. We ran mixed effects models predicting self-assessments from ambition, and find support for this hypothesis in both Study 1A and study 1B. 
+
+For hypothesis 2, we predicted a null relationship between ambition and third-party ratings of leadership effectiveness. We ran mixed effects models predicting third-party assessments from ambition, and we find a nonsignificant relationship in both Study 1A and study 1B. 
+
+To be able to claim support for the null hypothesis, we ran two additional tests. First, we ran an equivalence test. This test allowed us to declare, in both studies, the absence of a meaningful relationship between ambition and third-party ratings of leader effectiveness. Second, we calculated Bayes Factors, which allow us to quantify how much the data support the null hypothesis. We find that the data are 6 to 20 times as likely under the null hypothesis than under the alternative hypothesis. 
+
+:::
+
+
+## Study 2 
+
+- Expert-evaluated **leadership skills** competition
+<details>
+    <summary>
+    Show items
+    </summary>
+  ::: {.nonincremental}
+  - This person has all the qualities that would make them an effective leader
+  - This person would succeed as a leader in my company
+  :::
+    </details>
+- *N* = 829 ratings of 181 MBA students
+
+. . .
+
+**H2**: **Null** relationship between ambition and **other**-ratings of leadership effectiveness
+
+- *b* = $-0.06$, 95% CI [$-0.16$, $0.04$], *t*(175.09) = $-1.18$, *p* = .241 
+- Third-party ratings of leader effectiveness are **statistically equivalent**, regardless of ambition
+<details>
+    <summary>
+    Show details
+    </summary>
+  ::: {.nonincremental}
+  - Significant test against $\beta =.20$, *t*(175.09) = $-5.04$, *p* < .001
+  - Significant test against $\beta = -.20$, *t*(175.09) = $2.69$, *p* = .004
+  :::
+    </details>
+- **Bayes Factors** show **support for the null** hypothesis
+<details>
+    <summary>
+    Show details
+    </summary>
+  ::: {.nonincremental}
+  - $BF_{01}$ = 3.64
+  - The data are over 3 times as likely under a null model
+  :::
+    </details>
+
+::: {.footer}
+[`r icon_style(icons::academicons("open-materials"), scale = 2.5, fill = "#035AA6")` `r icon_style(icons::academicons("open-data"), scale = 2.5, fill = "#035AA6")` [**bit.ly/ambition-osf**]{style="font-size: 150%"}](https://bit.ly/ambition-osf)
+:::
+
+::: {.notes}
+In Study 2, we relied on a leadership challenge run during the Stanford MBA program. During the challenge, expert judges, who were current executives across a range of industries, rated each individual competitor on their leadership effectiveness. 
+
+In support of Hypothesis 2, we find a nonsignificant relationship between ambition and expert ratings of leadership effectiveness. We again run an equivalence test and find that there is no meaningful relationship between ambition and third-party ratings of leader effectiveness. We also computed Bayes Factors, and find that the data are over 3 times as likely under the null hypothesis than under the alternative. 
+
+:::
+
+## Study 3 
+
+- Group decision-making task with **randomly assigned** leaders vs. followers
+- Nationally **representative sample**: *N* = 305 ratings of 101 group leaders
+<details>
+    <summary>
+    Show items
+    </summary>
+  ::: {.nonincremental}
+  - I would want this person to be my boss or supervisor at work
+  - This person has clear leadership potential
+  - Overall, this person was NOT an effective leader (R)
+  - If I had the chance, I would definitely want to have this person as my leader again
+  - Looking ahead, I expect this person will experience great success as a leader
+  :::
+    </details>
+
+. . .
+
+**H2**: **Null** relationship between ambition and **other**-ratings of leadership effectiveness
+
+- *b* = $-0.06$, 95% CI [$-0.18$, $0.06$], *t*(98.99) = $-1.02$, *p* = .312
+- Third-party ratings of leader effectiveness are **statistically equivalent**, regardless of ambition
+<details>
+    <summary>
+    Show details
+    </summary>
+  ::: {.nonincremental}
+  - Significant test against $\beta = .20$, *t*(98.99) = $-4.36$, *p* < .001
+  - Significant test against $\beta =-.20$, *t*(98.99) = $2.33$, *p* = .011
+  :::
+    </details>
+- **Bayes Factors** show **support for the null** hypothesis
+<details>
+    <summary>
+    Show details
+    </summary>
+  ::: {.nonincremental}
+  - $BF_{01}$ = 3.98
+  - The data are about 4 times as likely under a null model
+  :::
+    </details>
+
+::: {.footer}
+[`r icon_style(icons::academicons("preregistered"), scale = 2.5, fill = "#035AA6")` `r icon_style(icons::academicons("open-materials"), scale = 2.5, fill = "#035AA6")` `r icon_style(icons::academicons("open-data"), scale = 2.5, fill = "#035AA6")` [**bit.ly/ambition-osf**]{style="font-size: 150%"}](https://bit.ly/ambition-osf)
+:::
+
+::: {.notes}
+In Study 3, we recruited a nationally representative sample to participate in an hour-long leadership simulation that focused on a group decision-making task. Participants were randomly assigned to act as the leader or one of the three followers. 
+
+In support of Hypothesis 2, we find a nonsignificant relationship between ambition and follower-rated effectiveness. We again run an equivalence test and find that there is no meaningful relationship between ambition and third-party ratings of leader effectiveness. We also computed Bayes Factors, and find that the data are about 4 times as likely under the null hypothesis than under the alternative. 
+
+:::
+
+## Uncalibrated Ambition
+
+. . .
+
+Ambitious individuals are judged as **no more effective** in leadership roles
+
+- Executives rated by peers, subordinates, and managers in a 360-degree assessment 
+- MBA students judged by experts in a leadership skills competition
+- A nationally representative sample of U.S. adults leading a small team in a leadership task  
+
+. . .
+
+**However...**
+
+- Ambitious individuals are more likely to **emerge** as leaders
+- Ambitious individuals report **more positive views** of their leadership effectiveness
+  
+. . .
+
+**Emergence-Effectiveness Gap** 
+
+- Ambition is **uncalibrated** to actual effectiveness
+- Ambitious individuals **over-emerge** as leaders
+
+::: aside
+De Volder & Lens, 1982; Jones, Sherman, & Hogan, 2017; Judge & Kammeyer-Mueller, 2012; Kim & Schneider, 2005; Lanaj & Hollenbeck, 2015
+:::
+
+
+::: {.notes}
+In conclusion, we find that ambitious individuals are judged as no more effective in leadership roles. This finding held for 360-degree assessments of current executives judged by their peers, direct reports, and supervisors; MBA students judged by experts in a leadership challenge; and a nationally representative sample of US adults leading a small team in leadership task. 
+
+However, ambitious individuals are more likely to become leaders, and they also tend to hold more positive views of their leadership effectiveness. 
+
+Putting these two findings together, we conclude that we have identified an emergence-effectiveness gap, where individuals are unable to calibrate their ambition to their actual effectiveness, and ambitious individuals tend to over-emerge as leaders as a result. 
+
+:::
+
+
+
+
+<!-- ![](https://uploads-ssl.webflow.com/5d3aa41f4e11727a27d4e25c/5f0d705319756654cf2e890a_Self%20Awareness%20how%20to%20understand%20yourself.jpg){.absolute right="340" top="310" height="300" width="425"} -->
+
+## Why Does This Matter?
+
+![](https://blog.boardsource.org/hs-fs/hubfs/blog_photos/chosen-3-alt.jpg){.absolute top="390" height="200" width="825"}
+
+- 50 to 75 percent of selected leaders **fail**
+- Leader selection mechanism is often **"opt-in"**
+  - **Self-selection** into candidate pool
+  - Assumption: those with the greatest **leadership potential** will apply
+  - We show that this assumption may be **unfounded**
+- We may need an **alternative approach** to leader selection and development
+  - How can we select the best future leaders?
+
+
+::: aside
+Anderson & Brown, 2010; Erkal, Gangadharan, & Xiao, 2022; Hogan, Curphy, & Hogan, 1994; Lanaj & Hollenbeck, 2015; Spark & O’Connor, 2021
+:::
+
+::: {.notes}
+Now, why does this matter?
+
+A pretty shocking estimate in the literature is that 50 to 75 percent of selected leaders fail. Even though groups have strong incentives to place the right person in charge, and they strive to do so, they often fail. Now, why do we so often fail? Our work suggests that, in part, the fault lies in the processes we use to select leaders. 
+
+Leader selection mechanisms are often opt-in: individuals must actively choose to be considered for leadership roles. The underlying assumption is that those with the greatest leadership potential will apply. Across four studies, we show that this assumption may be unfounded. 
+
+Rather than allowing ambitious individuals to dominate candidate pools for leadership roles, society may need an alternative approach to leadership development and selection. In the future, we hope to identify a systematic lever that can foster diversity in upper-level positions and promote workplace advancement for individuals with high leadership potential. 
+
+:::
+
+## Behavior{.center style='font-size: 95px; text-align: center;'}
+
+
+
+## Does Expressing Uncertainty Help or Harm Leaders?{.center style='text-align: center;'}
+
+## Leader-Expressed Uncertainty 
+
+![](images/Shutterstock_422654659.png){.absolute top="250" right="0" height="300" width="300"}
+
+. . .
+
+<br></br>
+
+<center>
+
+"Society tends to attribute **authority** to those who convey **certainty**  
+rather than to those who emphasize **uncertainty**"
+
+</center> 
+
+<br></br>
+
+. . . 
+
+Past research outlines **two opposing positions**:
+
+- Expressing uncertainty is **detrimental** to leaders' social influence
+- Expressing uncertainty is **beneficial** to leaders' social influence
+
+. . . 
+
+
+How can we **reconcile** these two perspectives?
+
+
+
+::: aside
+Anderson, Brion, Moore, & Kennedy, 2012; Belmi, Neale, Reiff, & Ulfe, 2020; Hennig, 2022; Hussein & Tormala, 2021; Karmarkar & Tormala, 2010; Owens & Hekman, 2012; Radzevick & Moore, 2011; Ronay, Oostrom, Lehmann-Willenbrock, Mayoral, & Rusch, 2019; Tenney, MacCoun, Spellman, & Hastie, 2007; Tenney & Spellman, 2011; Tenney, Meikle, Hunsaker, Moore, & Anderson, 2019
+:::
+
+## Social Influence
+
+![](images/influence.png){.absolute top="200" right="300" height="350" width="450"}
+
+<br></br>
+
+<center> 
+
+"The ability of one person to influence the **attitudes** and **behavior** of another"
+
+</center> 
+
+::: aside
+Cartwright, 1959; Cialdini & Goldstein, 2003; Raven, 1964
+:::
+
+## Uncertainty May Harm Leader Influence{style='font-size: 20px'}
+
+![](images/loop.png){.absolute top="440" right="300" height="150" width="450"}
+
+<br></br>
+
+. . .
+
+
+### Competence-signaling account{style='font-size: 25px'}
+
+- Expressing **confidence** is effective across a wide range of social settings
+  - Courtroom, military, political arena, hiring committees...
+- **Advice**-giving
+  - Confident advice is more likely to be followed, regardless of **accuracy**/**quality** 
+  - Physicians, brokers, consultants, therapists, peer reviewers...
+- **Presumption of calibration**
+  - A person's expressed **confidence corresponds to their actual competence**
+
+::: aside
+Anderson, Brion, Moore, & Kennedy, 2012; Anderson & Kilduff, 2009; Gaertig & Simmons, 2018; Kennedy, Anderson, & Moore, 2013; Locke & Anderson, 2015; Manian & Sheth, 2021; Price & Stone, 2004; Radzevick & Moore, 2011; Ronay, Oostrom, Lehmann-Willenbrock, Mayoral, & Rusch, 2019; Sniezek & Buckley, 1995; Sniezek & Van Swol, 2001; Tenney & Spellman, 2011; Van Swol & Sniezek, 2005; Von Hippel & Trivers, 2011; Zalesny, 1990
+:::
+
+## Uncertainty May Harm Leader Influence{style='font-size: 20px'}
+
+
+![](images/superwoman.jpeg){.absolute top="240" right="0" height="350"}
+
+<br></br>
+
+. . .
+
+
+### Leadership-prototypes account{style='font-size: 25px'}
+
+- Implicit assumptions about the **traits**, **abilities**, and **behaviors** that characterize an **ideal leader**
+  - "Implicit leadership theories" or "leadership prototypes"
+- Humans hold **highly romanticized, heroic** views of leadership
+  - Charisma
+  - Dominance
+  - Assertiveness
+  - Expertise
+  - Confidence
+  
+::: aside
+Bligh, Kohles, & Pillai, 2011; Bligh & Meindl, 2004; Chemers, Watson, & May, 2000; Cojuharenco & Karelaia, 2020; Conger & Kanungo, 1987; Conger, Kanungo, & Menon, 2000; De Cremer & Knippenberg, 2004; Epitropaki & Martin, 2004; Foti, Fraser, & Lord, 1982; Fraser & Lord, 1988; Hogg, Hains, & Mason, 1998; Junker & van Dick, 2014; Lord, Foti, & de Vader, 1984; Meindl, 1995; Meindl, Ehrlich, & Dukerich, 1985; Nye & Forsyth, 1991; Nye & Simonetta, 1996; Offermann & Coats, 2018; Rosette, Leonardelli, & Phillips, 2008; Sauer, 2011; Shamir, House, & Arthur, 1993; van Quaquebeke, van Knippenberg, & Brodbeck, 2011; van Quaquebeke & van Knippenberg, 2012
+:::
+
+## Uncertainty May Harm Leader Influence{style='font-size: 20px'}
+
+<br></br>
+
+. . . 
+
+Taken together, the **competence-signaling** and **leadership-prototypes** accounts suggest...
+
+
+
+![](images/loop.png){.absolute top="200" left="0" height="150" width="450"}
+![](images/superwoman.jpeg){.absolute top="160" right="300" height="300"}
+
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+
+. . . 
+
+**Hypothesis 1**: Leader-expressed uncertainty has a **negative** effect on the social influence of leaders  
+
+  - Perceiver attitudes (***H1a***) 
+  - Perceiver behaviors (***H1b***)
+
+
+## Uncertainty May Benefit Leader Influence{style='font-size: 20px'}
+
+![](images/vulnerability.png){.absolute top="130" right="0" height="250"}
+
+
+<br></br>
+
+. . .
+
+
+**Humble** leadership
+
+- Showing “humanness”: admitting limitations and knowledge gaps
+
+. . .
+
+
+**Authentic** leadership
+
+- Knowing and acting upon true values, beliefs, integrity, and strengths
+- Involves self-awareness: authentic leaders are conscious of knowledge gaps
+
+. . . 
+
+**Vulnerability** and **self-disclosure**
+
+- Disclosing personal limitations and weaknesses 
+
+. . .
+
+Positive outcomes of **humility**, **authenticity**, **vulnerability**, and **self-disclosure** include...
+
+- Trust, liking, engagement, psychological safety, feedback seeking, knowledge and information sharing, job satisfaction, job and task performance, creativity, organizational citizenship behavior, job retention, team learning
+
+::: aside
+Cho, Schilpzand, Huang, & Paterson, 2021; Collins & Miller, 1994; Coutifaris & Grant, 2022; Diddams & Chang, 2012; Gardner, Cogliser, Davis, & Dickens, 2011; Hu, Erdogan, Jiang, Bauer, & Liu, 2018; Hussein & Tormala, 2021; Karmarkar & Tormala, 2010; Ou, Tsui, Kinicki, Walman, Xiao, & Song, 2014; Owens & Hekman, 2012; Owens, Johnson, & Mitchell, 2013; Qian, Song, Wang, Wang, Chang, & Xiong, 2018; Rego, Cunha, & Simpson, 2018; Wang, Liu, & Zhu, 2018; Wang, Owens, Li, & Shi, 2018; Weick, 2001; Wheeless & Grotz, 1977; Wong, Spence Laschinger, & Cummings, 2010; Wong & Cummings, 2009 
+:::
+
+## Uncertainty May Benefit Leader Influence{style='font-size: 20px'}
+
+<br></br>
+
+. . . 
+
+Taken together, the literatures on **humility**, **authenticity**, **vulnerability**, and **self-disclosure** suggest...
+
+![](images/vulnerability.png){.absolute top="160" left="200" height="300"}
+
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+
+. . . 
+
+**Hypothesis 2**: Leader-expressed uncertainty has a **positive** effect on the social influence of leaders  
+
+  - Perceiver attitudes (***H2a***) 
+  - Perceiver behaviors (***H2b***)
+
+## Process{.center style='font-size: 95px; text-align: center;'}
+
+## Who Shall Lead? The Effectiveness Implications of Self-Selection into Leadership Roles{.center style='text-align: center;'}
