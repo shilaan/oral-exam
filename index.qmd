@@ -1303,7 +1303,7 @@ ggplot(pooled, aes(x = factor(ConditionR), y = RatingR)) +
 - Prolific participants randomly assigned to one of five experimental **designs**
   - Within each design, randomly assigned to one of nine experimental **conditions**
   - 6,000 participants; 1,200 per design; $\pm$ 133 per condition
-- Three-round **incentivized** game ($0.50 per correct answer) 
+- Three-round **incentivized** game
 - Paired with a **leader** who gives advice expressed in varying degrees of uncertainty
 - Advice quality and accuracy held **constant**
 - Measure attitudinal and behavioral **consequences** of leader-expressed uncertainty
@@ -1349,7 +1349,7 @@ I picked Pride here. If I had to express my certainty in terms of a percentage, 
 
 ## Study 3: Anagrams
 
-![](images/shutterstock_1396252886.jpg){.absolute right="0" width="325" top="160"}
+![](images/shutterstock_1396252886-min.jpg){.absolute right="0" width="325" top="160"}
 
 <br></br>
 
@@ -1387,6 +1387,68 @@ I answered NO. I am...  <details>
 :::
     </details>
 ...I’m right this time.
+
+## Study 4: Signaling game
+
+. . .
+
+![](images/S4.png){.absolute right="0" top="150"}
+
+
+<br></br>
+
+- Participants play **P1 Type B**
+- **P2** does not know which type they are
+- Participants earn more if P2 plays **right**
+- Their goal is to **signal** to P2 that they are Type B 
+
+. . .
+
+What is your selection?  
+A. 1  
+B. 2  
+C. 3  
+D. 4  
+
+
+<br></br>
+
+. . .
+
+
+**Message from Team Leader:**  
+I played 4. I am [***1/10/20/40/50/60/80/90/99***]% sure that's the best choice.
+
+## Study 5: Prediction game
+
+. . .
+
+
+![](images/dogcat.jpeg){.absolute right="0" top="125" width="550"}
+
+
+<br></br>
+
+
+
+- Participants report their own **preferences**
+- Participants **predict** preferences of 100 other survey-takers
+- Goal is to guess **within 5 points** of correct answer
+
+. . .
+
+<br></br>
+
+How many of 100 people surveyed prefer having a **cat** to a **dog**?
+
+
+<br></br>
+
+. . .
+
+
+**Message from Team Leader:**  
+I said 40 here. I’ve been asked to quantify for you how certain I am that it’s within 5 points of the right answer. On a 1-9 scale (where 1 = highly uncertain and 9 = highly certain), I’d say my certainty level is a(n) [***1/2/3/4/5/6/7/8/9***]. 
 
 ## Attitudinal Outcomes
 
