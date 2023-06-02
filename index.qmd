@@ -22,8 +22,6 @@ execute:
   freeze: true
 ---
 
-<!-- - Add HERI Study to Ambition  -->
-
 ```{r}
 #| label: load-packages
 #| include: false
@@ -34,7 +32,9 @@ library(icons)
 
 ## Leadership Matters 
 
-![](images/leadership.jpg "Leadership"){.absolute right="0" top="280" width="460" height="250"}
+<!-- - Add HERI Study to Ambition  -->
+
+![](images/leadership.jpg "Leadership"){.absolute right="0" top="270" width="500"}
 
 <br></br>
 
@@ -51,20 +51,23 @@ library(icons)
 - 50 to 75% of selected leaders **fail** 
 
 ::: aside
-Anderson & Brown, 2010; Fiedler, 1996; Hogan & Kaiser, 2005: p. 169
+Anderson & Brown, 2010; Fiedler, 1996; Hogan & Kaiser, 2005
 :::
 
 
 ## Adverse Leader Selection
 
+![](images/Shutterstock_608887400 copy 2.jpg){.absolute right="0" top="240" width="400"}
+<!-- ![](images/underemergence.jpg){.absolute right="0" top="280" height="300"} -->
+
+
 <br></br>
 
-- The **wrong** people make it to the **top**, and the **right** people do **not**
+- The **wrong** people make it to the **top**; the **right** people do **not**
   - Leader **over-emergence** & leader **under-emergence**
-- Leader **over-emergence**
-  - "The level of one's leader emergence is **higher** than the level of one's leader **effectiveness**"
-- Leader **under-emergence**
-  - "The level of one's leader emergence is **lower** than the level of one's leader **effectiveness**"
+- Leader emergence vs. leader **effectiveness** is...
+  - **Higher**: Leader over-emergence
+  - **Lower**: Leader under-emergence
 
 ::: aside
 Anderson & Brown, 2010; Fiedler, 1996; Hogan, Curphy, & Hogan, 1994; Lanaj & Hollenbeck, 2015
@@ -72,20 +75,22 @@ Anderson & Brown, 2010; Fiedler, 1996; Hogan, Curphy, & Hogan, 1994; Lanaj & Hol
 
 ## Costs to Leadership Failure 
 
+![](images/failure copy.png){.absolute right="0" bottom="170"}
+
 <br></br>
 
 - **Financial** costs
   - $750,000 to 5 million per failed executive
 - **Psychological** costs
-  - 75% of working adults report **the most stressful aspect** of their job is their boss
-  - 70% of US workers would take a pay cut if someone would **fire** their boss
+  - 75% of working adults: Boss is **most stressful aspect** of the job
+  - 70% of US workers: Would pay to have their boss **fired**
   - Bosses are often the primary reasons employees **quit**
 - **Societal** costs
   - Leadership scandals & ethical lapses
   - Military disasters
   
 ::: aside
-DeVries & Kaiser, 2003; Dixon, 1976; Hogan & Kaiser, 2005; Hogan, 2007, p. 106; Hogan, Hogan, & Kaiser, 2011; Lombardo, Ruderman & McCauley, 1988: p. 201; Smart, 1999
+DeVries & Kaiser, 2003; Dixon, 1976; Hogan & Kaiser, 2005; Hogan, 2007; Hogan, Hogan, & Kaiser, 2011; Lombardo, Ruderman & McCauley, 1988; Smart, 1999
 :::
   
 ## Why Are We So Bad At This?! 
@@ -642,7 +647,7 @@ Anderson, Brion, Moore, & Kennedy, 2012; Belmi, Neale, Reiff, & Ulfe, 2020; Henn
 
 ## Social Influence
 
-![](images/influence.png){.absolute top="200" right="300" height="350" width="450"}
+![](images/influence.png){.absolute top="200" right="200" width="600"}
 
 <br></br>
 
@@ -658,11 +663,13 @@ Cartwright, 1959; Cialdini & Goldstein, 2003; Raven, 1964
 
 ## Uncertainty May Harm Leader Influence{style='font-size: 20px'}
 
+. . . 
+
 ![](images/loop.png){.absolute top="440" right="300" height="150" width="450"}
 
 <br></br>
 
-. . .
+
 
 
 ### Competence-signaling account{style='font-size: 25px'}
@@ -681,12 +688,14 @@ Anderson, Brion, Moore, & Kennedy, 2012; Anderson & Kilduff, 2009; Gaertig & Sim
 
 ## Uncertainty May Harm Leader Influence{style='font-size: 20px'}
 
+. . .
+
 
 ![](images/superwoman.jpeg){.absolute top="240" right="0" height="350"}
 
 <br></br>
 
-. . .
+
 
 
 ### Leadership-prototypes account{style='font-size: 25px'}
@@ -726,7 +735,7 @@ Taken together, the **competence-signaling** and **leadership-prototypes** accou
 
 . . . 
 
-**Hypothesis 1**: Leader-expressed uncertainty has a **negative** effect on the social influence of leaders  
+**Hypothesis 1**: Leader-expressed uncertainty has a **negative** effect on leader social influence  
 
   - Perceiver attitudes (***H1a***) 
   - Perceiver behaviors (***H1b***)
@@ -734,12 +743,14 @@ Taken together, the **competence-signaling** and **leadership-prototypes** accou
 
 ## Uncertainty May Benefit Leader Influence{style='font-size: 20px'}
 
+. . .
+
 ![](images/vulnerability.png){.absolute top="130" right="0" height="250"}
 
 
 <br></br>
 
-. . .
+
 
 
 **Humble** leadership
@@ -789,10 +800,211 @@ Taken together, the literatures on **humility**, **authenticity**, **vulnerabili
 
 . . . 
 
-**Hypothesis 2**: Leader-expressed uncertainty has a **positive** effect on the social influence of leaders  
+**Hypothesis 2**: Leader-expressed uncertainty has a **positive** effect on leader social influence  
 
   - Perceiver attitudes (***H2a***) 
   - Perceiver behaviors (***H2b***)
+  
+## Help, Harm, or... Both?{style='font-size: 20px'}
+
+
+![](images/curvilinear.jpeg){.absolute top="400" left="150" height="200"}
+
+<br></br>
+
+- Literature may be reconciled by examining **nonlinear effects**
+- **Curvilinear** effects have been theorized, but most empirical studies rely on **binary measures** of (over)confidence
+- "**Too-much-of-a-good thing**" effects are pervasive in leadership research
+  - Seemingly positive relations that become flat or negative after reaching a specific inflection point
+<details>
+    <summary>
+    Show examples of TMGT effects
+    </summary>
+Agency, communion, decision latitude, empathy, empowering leadership, ethical leadership, intelligence, optimism, participative leadership, psychopathy, tenure, unpleasantness, voice, warmth
+    </details>
+  - Assertiveness & charisma: involve **confident communication**
+- **Perils of overconfidence**; observers prefer **calibration** in confidence and communication
+  - Expressing uncertainty when appropriate
+  - Job applicants, collaborators, advisors, eyewitnesses, managers...
+
+
+
+::: aside
+Ames & Flynn, 2007; Amundsen & Martinsen, 2014; Antonakis, House, & Simonton, 2017; Campbell, Gallmeyer, Johnson, Rutherford, & Stanley, 2011; Chua & Iyengar, 2011; Heavey et al., 2022; Huang, Xu, Huang, & Liu, 2018; Hu, Zhang, Jiang, & Chen, 2019; Konig, Graf-Vlachy, Bundy, & Little, 2020; Lam, Huang, & Chan, 2015; Landay, Harms, & Crede, 2019; Luo, Kanuri, & Andrews, 2014; Paese & Kinnaly, 1993; Pierce & Aguinis, 2013; Schock, Gruber, Scherndl, & Ortner, 2019; Staw, DeCelles, & de Goey, 2019; Stouten, van Dijke, Mayer, De Cremer, & Euwema, 2013; Tenney, MacCoun, Spellman, & Hastie, 2007; Tenney & Spellman, 2011; Tenney, Spellman, & MacCoun, 2008; Tenney, Meikle, Hunsaker, Moore, & Anderson, 2019; Vergauwe, Wille, Hofmans, Kaiser, & De Fruyt, 2018; Vitanova, 2021
+:::
+
+## Costs of Miscalibrated Confidence{style='font-size: 20px'}
+
+![](images/overconfidence.jpeg){.absolute right="0" top="125"}
+
+<br></br>
+
+. . .
+
+**Miscalibration** of confidence harms...
+
+- Perceived credibility
+- Perceived value to the team
+- Perceived desirability
+- Trust
+- Willingness to collaborate
+- Willingness to follow
+
+::: aside
+Tenney, MacCoun, Spellman, & Hastie, 2007; Tenney & Spellman, 2011; Tenney, Spellman, & MacCoun, 2008; Tenney, Meikle, Hunsaker, Moore, & Anderson, 2019 
+:::
+
+
+## Help, Harm, or... Both?{style='font-size: 20px'}
+
+<br></br>
+
+. . . 
+
+Taken together, **too-much-of-a-good thing** effects, **perils of overconfidence**, and **preferences for calibration** suggest...
+
+![](images/curvilinear.jpeg){.absolute top="200" left="150"}
+
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+
+. . . 
+
+**Hypothesis 3**: Leader-expressed uncertainty has a **curvilinear** (inverse U-shaped) effect on leader social influence  
+
+  - Perceiver attitudes (***H3a***) 
+  - Perceiver behaviors (***H3b***)
+  
+  
+## Meta-Analysis
+
+![](images/meta.png){.absolute right="0" bottom="0"}
+
+<br></br>
+
+- Studies that manipulate or measure expressed uncertainty
+  - Include a zero-order effect for an interpersonal outcome
+  - Minimize common-method bias (split-samples/time lags)
+- Obtained correlation in support of H1/H2
+  - Recoded to express effect of *un*certainty
+- Random-effects meta-analysis
+  - *k* = 20 studies
+  - *m* = 87 effect sizes
+  - *N* = 28,594 subjects
+  
+
+
+## Meta-Analysis
+
+```{r}
+library(dplyr)
+library(here)
+table1 <- read.csv(here("data/effectsizes.csv")) %>% 
+  select(Paper, Study, predictor, outcome, es_table)
+table1$Paper[duplicated(table1$Paper)] <- ""
+table1$Study[duplicated(table1$Study)] <- ""
+table1$Study <- gsub(".* ", "", table1$Study)
+table1$Study <- gsub("S", "", table1$Study)
+table1$es_table <- gsub("*", "", table1$es_table, fixed = TRUE)
+
+names(table1) <- c("Paper", "Study", "Predictor", "Outcome", "Effect Size")
+
+DT::datatable(
+  table1, 
+  fillContainer = FALSE, 
+  options = list(pageLength = 9),
+  rownames = FALSE
+  )
+```
+
+
+  
+## Meta-Analysis: H1
+
+. . .
+
+![](images/H1.jpg){.absolute width="900" height="600"}
+
+## Meta-Analysis: H2
+
+. . .
+
+![](images/H2.jpg){.absolute width="900" height="600"}
+
+## Meta-Analysis: Takeaways
+
+<br></br>
+
+. . . 
+
+Meta-analytic estimate of the interpersonal effect of expressed uncertainty
+
+- **H1** (negative): *r* = $-$.26, 95% CI [$-$.30, $-$.23] 
+- **H2** (positive): *r* = .13, 95% CI [.07, .20]
+
+. . .
+
+![](images/mediation2.webp){.absolute right="0" bottom="120"}
+
+<br></br>
+
+ 
+We suggest a **non-linear** test (**H3**)   
+to **reconcile** these conflicting results
+
+
+
+::: aside
+Anderson, Brion, Moore, & Kennedy, 2012; Cojuharenco & Karelaia, 2020; De Cremer & Van Knippenberg, 2004; Gaertig & Simmons, 2018; Hu, Erdogan, Jiang, Bauer, & Liu, 2018; Kennedy, Anderson, & Moore, 2013; Manian & Sheth, 2021; Ou, Tsui, Kinicki, Walman, Xiao, & Song, 2014; Owens, Johnson, & Mitchell, 2013; Rego, Cunha, & Simpson, 2018; Ronay, Oostrom, Lehmann-Willenbrock, Mayoral, & Rusch, 2019; Sniezek & Van Swol, 2001; Tenney, MacCoun, Spellman, & Hastie, 2007; Tenney & Spellman, 2011; Tenney, Spellman, & MacCoun, 2008; Tenney, Meikle, Hunsaker, Moore, & Anderson, 2019; Van Swol & Sniezek, 2005; Wang, Liu, & Zhu, 2018; Wang, Owens, Li, & Shi, 2018; Zapata & Hayes-Jones, 2019
+:::
+
+## Methods
+
+![](images/experiment.png){.absolute right="0" top="65" height="300"}
+
+
+- Five between-subjects experiments
+  - **S1**: Decoding game
+  - **S2**: Emotion estimation game
+  - **S3**: Anagram game
+  - **S4**: Signaling game
+  - **S5**: Prediction game
+- Experimentally manipulate leader-expressed **uncertainty**
+- Three core **attitudinal** outcomes
+  - Leader effectiveness, warmth, competence
+- Three core **behavioral** outcomes
+  - Advice-following/performance, leader selection, leader reward
+- Incentive-compatible
+  - Prespecified **bonus** for each correct answer
+  
+::: aside
+Meslec, Curseu, Fodor, & Kenda, 2020; Tenney et al., 2019; Zapata & Hayes-Jones, 2019; Manian & Sheth, 2021; Gaertig & Simmons, 2018
+:::
+
+## Manipulating Uncertainty
+
+<br></br>
+
+- On a 9-point scale ranging from highly certain (-4) to highly uncertain (+4)  
+- Three types of uncertainty expressions 
+  - **Calibrated scale** ("On a 1-9 scale, where 1 = highly uncertain and 9 = highly certain, my certainty level is a 7")
+  - **Percentages** ("I am 80% sure")
+  - **Colloquial, qualitative statements** ("I am absolutely convinced")
+- Relied on a **novel computational measure** of certainty in language: the Certainty Lexicon
+  
+  
+::: aside
+Rocklage, He, Rucker, & Nordgren, 2022
+:::
+
+## Calibrated Scale
+
+
+
 
 ## Process{.center style='font-size: 95px; text-align: center;'}
 
