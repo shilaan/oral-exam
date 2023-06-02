@@ -1003,6 +1003,8 @@ Rocklage, He, Rucker, & Nordgren, 2022
 
 ## Manipulation Pretests 
 
+![](images/Shutterstock_657922843.jpg){.absolute right="0" top="0"}
+
 <br></br>
 
 - Five **pretests** (*N* = 2,098) to obtain appropriately ordered stimuli
@@ -1011,7 +1013,7 @@ Rocklage, He, Rucker, & Nordgren, 2022
   - Calibrated scale
   - Percentage statements 
   - Two qualitative manipulations
-- Qualitative statements pretested using the **Certainty Lexicon** and human participants
+- Pretested with humans and, if applicable, **Certainty Lexicon**
 
 ::: aside
 Rocklage, He, Rucker, & Nordgren, 2022
@@ -1306,9 +1308,89 @@ ggplot(pooled, aes(x = factor(ConditionR), y = RatingR)) +
 - Advice quality and accuracy held **constant**
 - Measure attitudinal and behavioral **consequences** of leader-expressed uncertainty
 
+## Study 1: Decoding Task
 
+. . .
+
+![](images/S1.png){fig-align="center"}
+
+. . .
+
+Using the decoding scheme above, which of the following answers is correct?
+
+A. YYMAM = LLAMA  
+B. YRAT = LENGTH   
+C. MNHUT = LAUGH   
+D. YVYL = LILY  
+
+. . .
+
+**Message from Team Leader:**  
+I said D here. I’ve been asked to quantify for you how certain I am that it’s the right answer. On a 1-9 scale (where 1 = highly uncertain and 9 = highly certain), I’d say my certainty level is a(n) [***1/2/3/4/5/6/7/8/9***]. 
+
+## Study 2: Emotion Estimation
+
+. . .
+
+![](images/S2.png){fig-align="center"}
+
+. . .
+
+This face is expressing...  
+A. Pride  
+B. Contempt  
+C. Excitement  
+D. Anger  
+
+. . .
+
+**Message from Team Leader:**  
+I picked Pride here. If I had to express my certainty in terms of a percentage, I’d say I am [***1/10/20/40/50/60/80/90/99***]% sure that I got this one right. 
+
+## Study 3: Anagrams
+
+![](images/shutterstock_1396252886.jpg){.absolute right="0" width="325" top="160"}
+
+<br></br>
+
+. . .
+
+Can you unscramble the following letters?
+
+. . .
+
+
+**BIOGELO**  
+A. YES: This set of scrambled letters has a valid solution  
+B. NO: This set of scrambled letters does not have a valid solution  
+
+. . .
+
+
+**Message from Team Leader:**  
+I answered NO. I am...  <details>
+    <summary>
+    Show qualitative uncertainty statement
+    </summary>
+::: {.nonincremental}
+    
+  - *genuinely unsure. I’m desperately unconvinced whether*
+  - *desperately unconvinced whether*
+  - *unconvinced whether or not*
+  - *generally unconvinced whether or not*
+  - *examining whether*
+  - *generally convinced that*
+  - *reasonably convinced that*
+  - *convinced that*
+  - *absolutely convinced that*
+  
+:::
+    </details>
+...I’m right this time.
 
 ## Attitudinal Outcomes
+
+![](images/Shutterstock_572571964.jpg){.absolute right="0" top="150" height="400"}
 
 <br></br>
 
@@ -1317,19 +1399,36 @@ ggplot(pooled, aes(x = factor(ConditionR), y = RatingR)) +
     <summary>
     Show items
     </summary>
-The focal manager “is a good leader”, “has strong leadership skills”, and “has the ability to lead other people”
+    ::: {.nonincremental}
+  - Is a good leader
+  - Has strong leadership skills
+  - Has the ability to lead other people
+  :::
     </details>
 - Warmth<details>
     <summary>
     Show items
     </summary>
-The focal manager is “friendly”, “well-intentioned”, “trustworthy”, “warm”, “good-natured”, and “sincere”
+    ::: {.nonincremental}
+  - Friendly
+  - Well-intentioned
+  - Trustworthy
+  - Warm
+  - Good-natured
+  - Sincere
+  :::
     </details>
 - Competence<details>
     <summary>
     Show items
     </summary>
-The focal manager is “competent”, “capable”, “independent”, “intelligent”, and “skillful”
+    ::: {.nonincremental}
+  - Competent
+  - Capable
+  - Independent
+  - Intelligent
+  - Skillful
+  :::
     </details>
     
 ::: aside
@@ -1338,23 +1437,25 @@ Flynn & Lide, 2022; Fiske, Cuddy, Glick, & Xu, 2002
 
 ## Behavioral Outcomes
 
+<!-- ![](images/influence.png){.absolute bottom="0" right="0" width="400"} -->
+
 <br></br>
 
 - Advice-following/performance<details>
     <summary>
-    Show items
+    Show details
     </summary>
 In each round, we obtain a dichotomous measure indicating whether participants choose the leader's recommended strategy (0 = no, 1 = yes). We sum the three separate indicators into a single measure of advice-following
     </details>
 - Leader selection<details>
     <summary>
-    Show items
+    Show details
     </summary>
-At the end of three rounds, participants move on to a new incentivized game and are asked whether they would like to keep the same team leader or be paired with a new team leader (whose performance is similar). We obtain a single dichotomous measure indicating whether participants choose to keep the same leader (leader selection: 0 = no, 1 = yes)
+At the end of 3 rounds, participants move on to a new incentivized game and are asked whether they would like to keep the same team leader or be paired with a new team leader (with similar performance). We obtain a single dichotomous measure indicating whether participants choose to keep the same leader (leader selection: 0 = no, 1 = yes)
     </details>
 - Leader reward<details>
     <summary>
-    Show items
+    Show details
     </summary>
 Participants are asked how much, if anything, they would like to award the leader, on a bonus payment slider ranging from \$0 to \$5
     </details>
@@ -1364,34 +1465,31 @@ Participants are asked how much, if anything, they would like to award the leade
 
 <br></br>
 
-- Assess linear effects of leader-expressed uncertainty (separately for each outcome)<details>
+- Assess **linear** effects of leader-expressed uncertainty (separately for each outcome)<details>
     <summary>
     Show details
     </summary>
     ::: {.nonincremental}
   - Five separate **linear regression** models 
   - Random-effects **meta-analysis** to obtain pooled effect size estimate
-  - Evidence for **H1**: Pooled estimate significant and negative 
-  - Evidence for **H2**: Pooled estimate significant and positive 
+  - Evidence for **H1** (**H2**): Pooled estimate significant and negative (positive) 
   :::
     </details>
-- Assess nonlinear effects of leader-expressed uncertainty (separately for each outcome)<details>
+- Assess **nonlinear** effects of leader-expressed uncertainty (separately for each outcome)<details>
     <summary>
     Show details
     </summary>
     ::: {.nonincremental}
   - Five separate **two-lines** tests
   - Random-effects **meta-analysis** to obtain pooled effect size estimate
-  - Evidence for **H3**
-    - Pooled estimate of **1st line positive** and significant; **and**
-    - Pooled estimate of **2nd line negative** and significant
+  - Evidence for **H3** if 1st line positive **and** 2nd line negative
   :::
     </details>
-- Bayesian analysis if both tests are inconclusive for a particular outcome
+- **Bayesian** analysis if both tests are inconclusive for a particular outcome
     
 
 ::: aside
-Simonsohn, 2018
+Morey & Rouder, 2021; Simonsohn, 2018
 :::
 
 
