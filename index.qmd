@@ -1001,9 +1001,398 @@ Meslec, Curseu, Fodor, & Kenda, 2020; Tenney et al., 2019; Zapata & Hayes-Jones,
 Rocklage, He, Rucker, & Nordgren, 2022
 :::
 
+## Manipulation Pretests 
+
+<br></br>
+
+- Five **pretests** (*N* = 2,098) to obtain appropriately ordered stimuli
+- Participants rated the **uncertainty** expressed by several stimuli 
+- Obtained **four successful manipulations**
+  - Calibrated scale
+  - Percentage statements 
+  - Two qualitative manipulations
+- Qualitative statements pretested using the **Certainty Lexicon** and human participants
+
+::: aside
+Rocklage, He, Rucker, & Nordgren, 2022
+:::
+
 ## Calibrated Scale
 
+<br></br>
 
+On a 1-9 scale (where 1 = highly uncertain and 9 = highly certain), ...
+
+
+. . . 
+
+```{r}
+library(readr)
+scale <- read_csv("data/scale.csv")
+scale$Scale_Statement <- gsub("On a 1-9 scale (where 1 = highly uncertain and 9 = highly certain), my certainty level is ", "My certainty level is ", fixed = TRUE, scale$Scale_Statement)
+
+scale %>% 
+  group_by(ScaleR, Scale_Statement) %>% 
+  summarize(
+    Median = median(Scale_RatingR),
+    Mean = mean(Scale_RatingR) %>% round(2)
+    ) %>% 
+  select(ScaleR, Scale_Statement) %>% 
+  knitr::kable(
+    col.names = c(
+      "Uncertainty Condition", 
+      "Statement"#,
+      #"Median Rating",
+      #"Mean Rating"
+      ),
+    align = "cl" #cc
+    )
+```
+
+## Calibrated Scale
+
+<br></br>
+
+On a 1-9 scale (where 1 = highly uncertain and 9 = highly certain), ...
+
+
+
+```{r}
+scale %>% 
+  group_by(ScaleR, Scale_Statement) %>% 
+  summarize(
+    Median = median(Scale_RatingR),
+    Mean = mean(Scale_RatingR) %>% round(2)
+    ) %>% 
+  #select(ScaleR, Scale_Statement) %>% 
+  knitr::kable(
+    col.names = c(
+      "Uncertainty Condition", 
+      "Statement",
+      "Median Rating",
+      "Mean Rating"
+      ),
+    align = "clcc" 
+    )
+```
+
+## Percentage Scale
+
+. . .
+
+<br></br>
+
+```{r}
+percent <- read_csv("data/percent.csv")
+
+percent %>% 
+  group_by(PercentR, Percent_Statement) %>% 
+  summarize(
+    Median = median(Percent_RatingR), 
+    Mean = mean(Percent_RatingR) %>% round(2)
+    ) %>% 
+  select(PercentR, Percent_Statement) %>% 
+  knitr::kable(
+    col.names = c(
+      "Uncertainty Condition", 
+      "Statement"#,
+      #"Median Rating",
+      #"Mean Rating"
+      ),
+    align = "cl" #cc
+    )
+```
+
+## Percentage Scale
+
+<br></br>
+
+```{r}
+percent %>% 
+  group_by(PercentR, Percent_Statement) %>% 
+  summarize(
+    Median = median(Percent_RatingR), 
+    Mean = mean(Percent_RatingR) %>% round(2)
+    ) %>% 
+  #select(PercentR, Percent_Statement) %>% 
+  knitr::kable(
+    col.names = c(
+      "Uncertainty Condition", 
+      "Statement",
+      "Median Rating",
+      "Mean Rating"
+      ),
+    align = "clcc" 
+    )
+```
+
+## Qualitative Scale 1
+
+<br></br>
+
+```{r}
+convinced1 <- read_csv("data/convinced1.csv")
+
+tc1 <- convinced1 %>% 
+  group_by(ConvincedR, Convinced_Statement) %>% 
+  summarize(
+    Median = median(Convinced_RatingR), 
+    Mean = mean(Convinced_RatingR) %>% round(2)
+    )
+
+tc1$Lexicon_Uncertainty <- -1*(c(7.95, 7.38, 6.55, 5.8, 5.17, 4.63, 3.92, 3.34, 2.12) -5)
+
+tc1 %>% 
+  select(ConvincedR, Convinced_Statement) %>% 
+  knitr::kable(
+    col.names = c(
+      "Uncertainty Condition", 
+      "Statement"#,
+      #"Median Rating",
+      #"Mean Rating",
+      #"Lexicon Score"
+      ),
+    align = "cl"
+    )
+```
+
+## Qualitative Scale 1
+
+<br></br>
+
+```{r}
+tc1 %>% 
+  select(!Lexicon_Uncertainty) %>% 
+  knitr::kable(
+    col.names = c(
+      "Uncertainty Condition", 
+      "Statement",
+      "Median Rating",
+      "Mean Rating"#,
+      #"Lexicon Score"
+      ),
+    align = "clcc"
+    )
+```
+
+
+## Qualitative Scale 1
+
+<br></br>
+
+```{r}
+tc1 %>% 
+  knitr::kable(
+    col.names = c(
+      "Uncertainty Condition", 
+      "Statement",
+      "Median Rating",
+      "Mean Rating",
+      "Lexicon Score"
+      ),
+    align = "clcc"
+    )
+```
+
+::: aside
+Rocklage, He, Rucker, & Nordgren, 2022
+:::
+
+## Qualitative Scale 2
+
+<br></br>
+
+```{r}
+convinced1 <- read_csv("data/convinced2.csv")
+
+tc1 <- convinced1 %>% 
+  group_by(ConvincedR, Convinced_Statement) %>% 
+  summarize(
+    Median = median(Convinced_RatingR), 
+    Mean = mean(Convinced_RatingR) %>% round(2)
+    )
+
+tc1$Lexicon_Uncertainty <- -1*(c(7.95, 7.38, 6.55, 6.37, 5.83, 4.36, 3.92, 3.34, 1.97) -5)
+
+tc1 %>% 
+  select(ConvincedR, Convinced_Statement) %>% 
+  knitr::kable(
+    col.names = c(
+      "Uncertainty Condition", 
+      "Statement"#,
+      #"Median Rating",
+      #"Mean Rating",
+      #"Lexicon Score"
+      ),
+    align = "cl"
+    )
+```
+
+::: aside
+Same as first qualitative uncertainty manipulation, except for conditions -1, 0, 1, and 4.
+:::
+
+## Qualitative Scale 2
+
+<br></br>
+
+```{r}
+tc1 %>% 
+  select(!Lexicon_Uncertainty) %>% 
+  knitr::kable(
+    col.names = c(
+      "Uncertainty Condition", 
+      "Statement",
+      "Median Rating",
+      "Mean Rating"#,
+      #"Lexicon Score"
+      ),
+    align = "clcc"
+    )
+```
+
+::: aside
+Same as first qualitative uncertainty manipulation, except for conditions -1, 0, 1, and 4.
+:::
+
+## Qualitative Scale 2
+
+<br></br>
+
+```{r}
+tc1 %>% 
+  knitr::kable(
+    col.names = c(
+      "Uncertainty Condition", 
+      "Statement",
+      "Median Rating",
+      "Mean Rating",
+      "Lexicon Score"
+      ),
+    align = "clcc"
+    )
+```
+
+::: aside
+Rocklage, He, Rucker, & Nordgren, 2022
+:::
+
+## Manipulation Pretests
+
+```{r, fig.width=6, fig.align='center'}
+pooled <- read_csv("data/pooled-manipulations.csv")
+set.seed(1)
+ggplot(pooled, aes(x = factor(ConditionR), y = RatingR)) +
+  geom_boxplot(size = .75, outlier.shape = NA) +
+  geom_jitter(alpha = .2, color = "grey") +
+  facet_wrap(~ Manipulation) +
+  theme_bw() +
+  scale_y_continuous(breaks = -4:4, minor_breaks = -4:4) +
+  labs(x = "Uncertainty Condition", y = "Uncertainty Rating") +
+  theme(strip.background = element_rect(fill = "white"))
+```
+
+
+## Experimental Design and Procedure{style='font-size: 23px'}
+
+<br></br>
+
+- Five designs to confirm **generalizability** across different experimental tasks 
+- Prolific participants randomly assigned to one of five experimental **designs**
+  - Within each design, randomly assigned to one of nine experimental **conditions**
+  - 6,000 participants; 1,200 per design; $\pm$ 133 per condition
+- Three-round **incentivized** game ($0.50 per correct answer) 
+- Paired with a **leader** who gives advice expressed in varying degrees of uncertainty
+- Advice quality and accuracy held **constant**
+- Measure attitudinal and behavioral **consequences** of leader-expressed uncertainty
+
+
+
+## Attitudinal Outcomes
+
+<br></br>
+
+- 7-point scales (1 = Strongly Disagree, 7 = Strongly Agree)
+- Leader effectiveness<details>
+    <summary>
+    Show items
+    </summary>
+The focal manager “is a good leader”, “has strong leadership skills”, and “has the ability to lead other people”
+    </details>
+- Warmth<details>
+    <summary>
+    Show items
+    </summary>
+The focal manager is “friendly”, “well-intentioned”, “trustworthy”, “warm”, “good-natured”, and “sincere”
+    </details>
+- Competence<details>
+    <summary>
+    Show items
+    </summary>
+The focal manager is “competent”, “capable”, “independent”, “intelligent”, and “skillful”
+    </details>
+    
+::: aside
+Flynn & Lide, 2022; Fiske, Cuddy, Glick, & Xu, 2002 
+:::
+
+## Behavioral Outcomes
+
+<br></br>
+
+- Advice-following/performance<details>
+    <summary>
+    Show items
+    </summary>
+In each round, we obtain a dichotomous measure indicating whether participants choose the leader's recommended strategy (0 = no, 1 = yes). We sum the three separate indicators into a single measure of advice-following
+    </details>
+- Leader selection<details>
+    <summary>
+    Show items
+    </summary>
+At the end of three rounds, participants move on to a new incentivized game and are asked whether they would like to keep the same team leader or be paired with a new team leader (whose performance is similar). We obtain a single dichotomous measure indicating whether participants choose to keep the same leader (leader selection: 0 = no, 1 = yes)
+    </details>
+- Leader reward<details>
+    <summary>
+    Show items
+    </summary>
+Participants are asked how much, if anything, they would like to award the leader, on a bonus payment slider ranging from \$0 to \$5
+    </details>
+    
+    
+## Analysis plan
+
+<br></br>
+
+- Assess linear effects of leader-expressed uncertainty (separately for each outcome)<details>
+    <summary>
+    Show details
+    </summary>
+    ::: {.nonincremental}
+  - Five separate **linear regression** models 
+  - Random-effects **meta-analysis** to obtain pooled effect size estimate
+  - Evidence for **H1**: Pooled estimate significant and negative 
+  - Evidence for **H2**: Pooled estimate significant and positive 
+  :::
+    </details>
+- Assess nonlinear effects of leader-expressed uncertainty (separately for each outcome)<details>
+    <summary>
+    Show details
+    </summary>
+    ::: {.nonincremental}
+  - Five separate **two-lines** tests
+  - Random-effects **meta-analysis** to obtain pooled effect size estimate
+  - Evidence for **H3**
+    - Pooled estimate of **1st line positive** and significant; **and**
+    - Pooled estimate of **2nd line negative** and significant
+  :::
+    </details>
+- Bayesian analysis if both tests are inconclusive for a particular outcome
+    
+
+::: aside
+Simonsohn, 2018
+:::
 
 
 ## Process{.center style='font-size: 95px; text-align: center;'}
