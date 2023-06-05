@@ -54,12 +54,21 @@ library(icons)
 Anderson & Brown, 2010; Fiedler, 1996; Hogan & Kaiser, 2005
 :::
 
-
 ## Adverse Leader Selection
 
-![](images/Shutterstock_608887400 copy 2.jpg){.absolute right="0" top="240" width="400"}
-<!-- ![](images/underemergence.jpg){.absolute right="0" top="280" height="300"} -->
 
+:::: {.columns}
+
+::: {.column width="40%"}
+
+<br></br>
+
+![](images/Shutterstock_608887400 copy 2.jpg)
+
+
+:::
+
+::: {.column width="40%"}
 
 <br></br>
 
@@ -68,6 +77,10 @@ Anderson & Brown, 2010; Fiedler, 1996; Hogan & Kaiser, 2005
 - Leader emergence vs. leader **effectiveness** is...
   - **Higher**: Leader over-emergence
   - **Lower**: Leader under-emergence
+
+:::
+
+::::
 
 ::: aside
 Anderson & Brown, 2010; Fiedler, 1996; Hogan, Curphy, & Hogan, 1994; Lanaj & Hollenbeck, 2015
@@ -1561,22 +1574,34 @@ Morey & Rouder, 2021; Simonsohn, 2018
 
 ## Self-Selection into Candidate Pools
 
-![](images/Shutterstock_1643439796.jpg){.absolute bottom="25" right="0" height="400"}
+:::: {.columns}
 
+::: {.column width="40%"}
 <br></br>
 
-- Leader selection mechanisms rely on a **strong default of self-selection**
-- Individuals must actively "**opt-in**" to the candidate pool for leadership positions
+- Leader selection processes rely on a **strong default of self-selection**
+- Individuals must actively "**opt-in**" to the candidate pool for leadership roles
 - Despite the ubiquity of this default... 
-- Unknown how it affects **composition** and **effectiveness**  
-of candidate pools for leader roles
+- Unknown how it affects **composition** and **effectiveness** of candidate pools for leadership roles
 
+:::
+
+::: {.column width="60%"}
+
+
+![](images/Shutterstock_1643439796.jpg)
+:::
+
+::::
 
 ::: aside
 Erkal, Gangadharan, & Xiao, 2022; He, Kang, & Lacetera, 2021; Chan & Drasgow, 2001
 :::
 
-## Effectiveness implications{style='font-size: 23px'}
+
+## Effectiveness Implications{style='font-size: 23px'}
+
+![](images/pool.webp){.absolute right="0" bottom="0" height="375"}
 
 <br></br>
 
@@ -1587,19 +1612,25 @@ Erkal, Gangadharan, & Xiao, 2022; He, Kang, & Lacetera, 2021; Chan & Drasgow, 20
 - Compare **opt-in** vs. **opt-out** selection mechanisms
 - Goal: identify institutional **interventions** that may... 
   - Foster **diversity** in upper-level positions 
-  - Promote workplace **advancement** for individuals with strong leadership **potential**
+  - Promote workplace **advancement** for individuals  
+  with strong leadership **potential**
+  
+
   
 ## Hypotheses
 
-<br></br>
-
-. . .
-
-**Opt-in** (vs **opt-out**) mechanisms...
+![](images/talent.jpeg){.absolute bottom="0" left="190" height="300"}
 
 <br></br>
 
 . . .
+
+**Opt-in** (vs. **opt-out**) mechanisms...
+
+
+. . .
+
+
 
 
 H1: **Decrease** the aggregate **effectiveness** of candidate pools for leadership roles 
