@@ -1558,3 +1558,61 @@ Morey & Rouder, 2021; Simonsohn, 2018
 ## Process{.center style='font-size: 95px; text-align: center;'}
 
 ## Who Shall Lead? The Effectiveness Implications of Self-Selection into Leadership Roles{.center style='text-align: center;'}
+
+## Self-Selection into Candidate Pools
+
+![](images/Shutterstock_1643439796.jpg){.absolute bottom="25" right="0" height="400"}
+
+<br></br>
+
+- Leader selection mechanisms rely on a **strong default of self-selection**
+- Individuals must actively "**opt-in**" to the candidate pool for leadership positions
+- Despite the ubiquity of this default... 
+- Unknown how it affects **composition** and **effectiveness**  
+of candidate pools for leader roles
+
+
+::: aside
+Erkal, Gangadharan, & Xiao, 2022; He, Kang, & Lacetera, 2021; Chan & Drasgow, 2001
+:::
+
+## Effectiveness implications{style='font-size: 23px'}
+
+<br></br>
+
+- Examine the **effectiveness** implications of **self-selection** into candidate pools for leadership roles
+- Hypothesize that self-selection induces **adverse leader selection**, creating a candidate pool that is...
+  - **Underrepresented** on attributes helpful to leadership effectiveness (e.g., prosociality)
+  - **Overrepresented** on attributes harmful or unrelated to leadership effectiveness (e.g., ambition, overconfidence, narcissism)
+- Compare **opt-in** vs. **opt-out** selection mechanisms
+- Goal: identify institutional **interventions** that may... 
+  - Foster **diversity** in upper-level positions 
+  - Promote workplace **advancement** for individuals with strong leadership **potential**
+  
+## Hypotheses
+
+<br></br>
+
+. . .
+
+**Opt-in** (vs **opt-out**) mechanisms...
+
+<br></br>
+
+. . .
+
+
+H1: **Decrease** the aggregate **effectiveness** of candidate pools for leadership roles 
+
+. . .
+
+H1a: **Increase** the prominence of effectiveness-**inhibiting** traits in candidate pools
+
+. . .
+
+H1b: **Increase** the prominence of effectiveness-**irrelevant** traits in candidate pools
+
+. . .
+
+H1c: **Decrease** the prominence of effectiveness-**inducing** traits in candidate pools
+
