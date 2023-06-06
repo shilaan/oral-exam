@@ -170,7 +170,7 @@ Why the **wrong** people make it to the **top**, and the **right** people do **n
 :::
 
 ::: {.column width="30%"}
-![](https://i.pinimg.com/originals/f8/37/25/f83725a4ac1a52fba233d95399cfab94.jpg "Dali"){.absolute top="90" right="0" width="300" height="500"}
+![](https://i.pinimg.com/originals/f8/37/25/f83725a4ac1a52fba233d95399cfab94.jpg "Dali"){.absolute top="110" right="0" width="300" height="500"}
 :::
 
 ::::
@@ -1451,32 +1451,7 @@ ggplot(pooled, aes(x = factor(ConditionR), y = RatingR)) +
   theme(strip.background = element_rect(fill = "white"))
 ```
 
-## Experimental Design and Procedure{style='font-size: 23px'}
 
-:::: {.columns}
-
-::: {.column width="65%"}
-<br></br>
-
-- Five designs to confirm **generalizability** across different experimental tasks 
-- Prolific participants randomly assigned to one of five experimental **designs**
-  - Within each design, randomly assigned to one of nine experimental **conditions**
-  - 6,000 participants; 1,200 per design; $\pm$ 133 per condition
-- Three-round **incentivized** game
-- Paired with a **leader** who gives advice expressed in varying degrees of uncertainty
-- Advice quality and accuracy held **constant**
-- Measure attitudinal and behavioral **consequences** of leader-expressed uncertainty
-:::
-
-::: {.column width="35%"}
-
-<br></br>
-<br></br>
-<br></br>
-![](images/advice.gif)
-:::
-
-::::
 
 
 ## Experimental Design and Procedure{style='font-size: 23px'}
