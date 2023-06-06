@@ -1789,35 +1789,29 @@ Erkal, Gangadharan, & Xiao, 2022; He, Kang, & Lacetera, 2021; Chan & Drasgow, 20
   - Promote workplace **advancement** for individuals  
   with strong leadership **potential**
   
-
   
-## Hypotheses
+## Self-Selection: Hypotheses
 
-![](images/talent.jpeg){.absolute bottom="0" left="190" height="300"}
+![](images/opt.jpeg){.absolute bottom="0" right="0" height="440"}
+
+
+. . .
+
+<br></br>
+
+*H1*: **Opt-in** (vs. **opt-out**) mechanisms **decrease** the aggregate **effectiveness** of candidate pools for leadership roles, through...
 
 <br></br>
 
 . . .
 
-**Opt-in** (vs. **opt-out**) mechanisms...
-
-
-. . .
-
-
-
-
-H1: **Decrease** the aggregate **effectiveness** of candidate pools for leadership roles 
+*H1a*: **Greater** presence of effectiveness-**inhibiting** traits
 
 . . .
 
-H1a: **Increase** the prominence of effectiveness-**inhibiting** traits in candidate pools
+*H1b*: **Greater** presence of effectiveness-**irrelevant** traits
 
 . . .
 
-H1b: **Increase** the prominence of effectiveness-**irrelevant** traits in candidate pools
-
-. . .
-
-H1c: **Decrease** the prominence of effectiveness-**inducing** traits in candidate pools
+*H1c*: **Lesser** presence of effectiveness-**inducing** traits
 
