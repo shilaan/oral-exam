@@ -139,7 +139,7 @@ Why the **wrong** people make it to the **top**, and the **right** people do **n
 - Opt-in selection mechanisms
 
 ::: aside
-Alzahawi, Reit, & Flynn, *under review*; Alzahawi & Flynn, *under review*; Alzahawi & Flynn, *in prep*
+<!-- Alzahawi, Reit, & Flynn, *under review*; Alzahawi & Flynn, *under review*; Alzahawi & Flynn, *in prep* -->
 :::
 
 
@@ -491,7 +491,7 @@ Relationship between ambition and self-rated leadership effectiveness (**Hypothe
   “Recognizes others’ contributions”]{style="color: #8f8f8f; font-weight: bold; font-size: 77%;"}
   :::
     </details>
-- Executives reported a self-assessment and their **ambition**
+- Executives completed a self-assessment and separately reported their **ambition**
     <details>
     <summary>
     Show items
@@ -1451,9 +1451,11 @@ ggplot(pooled, aes(x = factor(ConditionR), y = RatingR)) +
   theme(strip.background = element_rect(fill = "white"))
 ```
 
-
 ## Experimental Design and Procedure{style='font-size: 23px'}
 
+:::: {.columns}
+
+::: {.column width="65%"}
 <br></br>
 
 - Five designs to confirm **generalizability** across different experimental tasks 
@@ -1464,6 +1466,34 @@ ggplot(pooled, aes(x = factor(ConditionR), y = RatingR)) +
 - Paired with a **leader** who gives advice expressed in varying degrees of uncertainty
 - Advice quality and accuracy held **constant**
 - Measure attitudinal and behavioral **consequences** of leader-expressed uncertainty
+:::
+
+::: {.column width="35%"}
+
+<br></br>
+<br></br>
+<br></br>
+![](images/advice.gif)
+:::
+
+::::
+
+
+## Experimental Design and Procedure{style='font-size: 23px'}
+
+![](images/advice.gif){.absolute bottom="0" right="0" width="525"}
+
+<br></br>
+
+- Five designs to confirm **generalizability** across different experimental tasks 
+- Prolific participants randomly assigned to one of five experimental **designs**
+  - Within each design, randomly assigned to one of nine experimental **conditions**
+  - 6,000 participants; 1,200 per design; $\pm$ 133 per condition
+- Three-round **incentivized** game
+- Paired with **leader** 
+- **Advice** expressed in varying degrees of uncertainty
+- Advice **quality** and **accuracy** held constant
+- Measure attitudinal and behavioral **consequences** 
 
 ## Study 1: Decoding Task
 
@@ -1701,7 +1731,7 @@ Participants are asked how much, if anything, they would like to award the leade
     ::: {.nonincremental}
   - Five separate **two-lines** tests
   - Random-effects **meta-analysis** to obtain pooled effect size estimate
-  - Evidence for **H3** if 1st line positive **and** 2nd line negative
+  - Evidence for **H3** if first line positive **and** second line negative
   :::
     </details>
 - **Bayesian** analysis if both tests are inconclusive for a particular outcome
