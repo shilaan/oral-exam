@@ -14,7 +14,7 @@ format:
     code-copy: true
     slide-number: true
     preview-links: true
-    self-contained: false
+    self-contained: true
     controls: true
     overview: true
     mouse-wheel: false
@@ -34,6 +34,7 @@ library(icons)
 
 <!-- To do: -->
 <!-- - Update OSF link -->
+<!-- - Add anticipated results to paper 2  -->
 <!-- - Self-contained: true -->
 
 ![](images/leadership.jpg "Leadership"){.absolute right="0" top="270" width="500"}
@@ -107,7 +108,7 @@ Anderson & Brown, 2010; Fiedler, 1996; Hogan, Curphy, & Hogan, 1994; Lanaj & Hol
 DeVries & Kaiser, 2003; Dixon, 1976; Hogan & Kaiser, 2005; Hogan, 2007; Hogan, Hogan, & Kaiser, 2011; Lombardo, Ruderman & McCauley, 1988; Smart, 1999
 :::
   
-## Why Are We So Bad At This?! 
+## Adverse Leader Selection
 
 ![](images/shutterstock_281218637.jpg "Leadership"){.absolute right="50" top="200" width="400" height="400"}
 
@@ -140,6 +141,53 @@ Why the **wrong** people make it to the **top**, and the **right** people do **n
 **Process** lens 
 
 - Opt-in selection mechanisms
+
+::: aside
+<!-- Alzahawi, Reit, & Flynn, *under review*; Alzahawi & Flynn, *under review*; Alzahawi & Flynn, *in prep* -->
+:::
+
+
+## Adverse Leader Selection
+
+::: {.nonincremental}
+
+![](images/shutterstock_281218637.jpg "Leadership"){.absolute right="50" top="200" width="400" height="400"}
+
+
+
+<br></br>
+
+
+
+Why the **wrong** people make it to the **top**, and the **right** people do **not**... 
+
+
+
+<br></br>
+
+
+
+**Trait** lens
+
+- Ambition
+
+
+::: {.fragment .semi-fade-out}
+
+**Behavior** lens
+
+- (Un)certainty displays
+
+
+**Process** lens 
+
+- Opt-in selection mechanisms
+
+:::
+
+
+:::
+
 
 ::: aside
 <!-- Alzahawi, Reit, & Flynn, *under review*; Alzahawi & Flynn, *under review*; Alzahawi & Flynn, *in prep* -->
@@ -871,9 +919,9 @@ Putting these two findings together, we conclude that we have identified an emer
 
 <!-- ![](https://uploads-ssl.webflow.com/5d3aa41f4e11727a27d4e25c/5f0d705319756654cf2e890a_Self%20Awareness%20how%20to%20understand%20yourself.jpg){.absolute right="340" top="310" height="300" width="425"} -->
 
-## Why Does This Matter?
+## Why Does This Matter?{background-image="images/Shutterstock_1643439796.jpg" background-size="590px" background-position="90% 75%"}
 
-![](https://blog.boardsource.org/hs-fs/hubfs/blog_photos/chosen-3-alt.jpg){.absolute top="390" height="200" width="825"}
+<br></br>
 
 - 50 to 75 percent of selected leaders **fail**
 - Leader selection mechanism is often **"opt-in"**
@@ -898,6 +946,58 @@ Leader selection mechanisms are often opt-in: individuals must actively choose t
 Rather than allowing ambitious individuals to dominate candidate pools for leadership roles, society may need an alternative approach to leadership development and selection. In the future, we hope to identify a systematic lever that can foster diversity in upper-level positions and promote workplace advancement for individuals with high leadership potential. 
 
 :::
+
+## Adverse Leader Selection
+
+::: {.nonincremental}
+
+![](images/shutterstock_281218637.jpg "Leadership"){.absolute right="50" top="200" width="400" height="400"}
+
+
+
+<br></br>
+
+
+
+Why the **wrong** people make it to the **top**, and the **right** people do **not**... 
+
+
+
+<br></br>
+
+::: {.fragment .semi-fade-out fragment-index=1}
+
+**Trait** lens
+
+- Ambition
+
+:::
+
+
+**Behavior** lens
+
+- (Un)certainty displays
+
+
+::: {.fragment .semi-fade-out fragment-index=1}
+
+**Process** lens 
+
+- Opt-in selection mechanisms
+
+:::
+
+
+
+:::
+
+
+::: aside
+<!-- Alzahawi, Reit, & Flynn, *under review*; Alzahawi & Flynn, *under review*; Alzahawi & Flynn, *in prep* -->
+:::
+
+
+
 
 ## Behavior{.center style='font-size: 95px; text-align: center;'}
 
@@ -1113,7 +1213,7 @@ Taken together, the literatures on **humility**, **authenticity**, **vulnerabili
   - Seemingly positive relations that become flat or negative after reaching a specific inflection point
 <details>
     <summary>
-    Show examples of TMGT effects
+    Examples of TMGT effects
     </summary>
 Agency, communion, decision latitude, empathy, empowering leadership, ethical leadership, intelligence, optimism, participative leadership, psychopathy, tenure, unpleasantness, voice, warmth
     </details>
@@ -1174,88 +1274,6 @@ Taken together, **too-much-of-a-good thing** effects, **perils of overconfidence
   - Perceiver attitudes (***H3a***) 
   - Perceiver behaviors (***H3b***)
   
-  
-## Meta-Analysis
-
-![](images/meta.png){.absolute right="0" bottom="0"}
-
-<br></br>
-
-- Studies that manipulate or measure expressed uncertainty
-  - Include a zero-order effect for an interpersonal outcome
-  - Minimize common-method bias (split-samples/time lags)
-- Obtained correlation in support of H1/H2
-  - Recoded to express effect of *un*certainty
-- Random-effects meta-analysis
-  - *k* = 20 studies
-  - *m* = 87 effect sizes
-  - *N* = 28,594 subjects
-  
-
-
-## Meta-Analysis
-
-```{r}
-library(dplyr)
-library(here)
-table1 <- read.csv(here("data/effectsizes.csv")) %>% 
-  select(Paper, Study, predictor, outcome, es_table)
-table1$Paper[duplicated(table1$Paper)] <- ""
-table1$Study[duplicated(table1$Study)] <- ""
-table1$Study <- gsub(".* ", "", table1$Study)
-table1$Study <- gsub("S", "", table1$Study)
-table1$es_table <- gsub("*", "", table1$es_table, fixed = TRUE)
-
-names(table1) <- c("Paper", "Study", "Predictor", "Outcome", "Effect Size")
-
-DT::datatable(
-  table1, 
-  fillContainer = FALSE, 
-  options = list(pageLength = 9),
-  rownames = FALSE
-  )
-```
-
-
-  
-## Meta-Analysis: H1
-
-. . .
-
-![](images/H1.jpg){.absolute width="900" height="600"}
-
-## Meta-Analysis: H2
-
-. . .
-
-![](images/H2.jpg){.absolute width="900" height="600"}
-
-## Meta-Analysis: Takeaways
-
-<br></br>
-
-. . . 
-
-Meta-analytic estimate of the interpersonal effect of expressed uncertainty
-
-- **H1** (negative): *r* = $-$.26, 95% CI [$-$.30, $-$.23] 
-- **H2** (positive): *r* = .13, 95% CI [.07, .20]
-
-. . .
-
-![](images/mediation2.webp){.absolute right="0" bottom="120"}
-
-<br></br>
-
- 
-We suggest a **non-linear** test (**H3**)   
-to **reconcile** these conflicting results
-
-
-
-::: aside
-Anderson, Brion, Moore, & Kennedy, 2012; Cojuharenco & Karelaia, 2020; De Cremer & Van Knippenberg, 2004; Gaertig & Simmons, 2018; Hu, Erdogan, Jiang, Bauer, & Liu, 2018; Kennedy, Anderson, & Moore, 2013; Manian & Sheth, 2021; Ou, Tsui, Kinicki, Walman, Xiao, & Song, 2014; Owens, Johnson, & Mitchell, 2013; Rego, Cunha, & Simpson, 2018; Ronay, Oostrom, Lehmann-Willenbrock, Mayoral, & Rusch, 2019; Sniezek & Van Swol, 2001; Tenney, MacCoun, Spellman, & Hastie, 2007; Tenney & Spellman, 2011; Tenney, Spellman, & MacCoun, 2008; Tenney, Meikle, Hunsaker, Moore, & Anderson, 2019; Van Swol & Sniezek, 2005; Wang, Liu, & Zhu, 2018; Wang, Owens, Li, & Shi, 2018; Zapata & Hayes-Jones, 2019
-:::
 
 ## Methods
 
@@ -1280,14 +1298,31 @@ Anderson, Brion, Moore, & Kennedy, 2012; Cojuharenco & Karelaia, 2020; De Cremer
 Meslec, Curseu, Fodor, & Kenda, 2020; Tenney et al., 2019; Zapata & Hayes-Jones, 2019; Manian & Sheth, 2021; Gaertig & Simmons, 2018
 :::
 
+## Experimental Design and Procedure{style='font-size: 23px'}
+
+![](images/advice.gif){.absolute bottom="0" right="0" width="525"}
+
+<br></br>
+
+- Five designs to confirm **generalizability** across different experimental tasks 
+- Prolific participants randomly assigned to one of five experimental **designs**
+  - Within each design, randomly assigned to one of nine experimental **conditions**
+  - 6,000 participants; 1,200 per design; $\pm$ 133 per condition
+- Three-round **incentivized** game
+- Paired with **leader** 
+- **Advice** expressed in varying degrees of uncertainty
+- Advice **quality** and **accuracy** held constant
+- Measure attitudinal and behavioral **consequences** 
+
+
 ## Manipulating Uncertainty
 
 <br></br>
 
 - On a 9-point scale ranging from highly certain (-4) to highly uncertain (+4)  
-- Three types of uncertainty expressions 
-  - **Calibrated scale** ("On a 1-9 scale, where 1 = highly uncertain and 9 = highly certain, my certainty level is a 7")
-  - **Percentages** ("I am 80% sure")
+- Three types of uncertainty expressions (one for each round)
+  - **Calibrated statements** ("On a 1-9 scale, where 1 = highly uncertain and 9 = highly certain, my certainty level is a 7")
+  - **Percentage statements** ("I am 80% sure")
   - **Colloquial, qualitative statements** ("I am absolutely convinced")
 - Relied on a **novel computational measure** of certainty in language: the Certainty Lexicon
   
@@ -1305,7 +1340,7 @@ Rocklage, He, Rucker, & Nordgren, 2022
 - Five **pretests** (*N* = 2,098) to obtain appropriately ordered stimuli
 - Participants rated the **uncertainty** expressed by several stimuli 
 - Obtained **four successful manipulations**
-  - Calibrated scale
+  - Calibrated statements
   - Percentage statements 
   - Two qualitative manipulations
 - Pretested with humans and, if applicable, **Certainty Lexicon**
@@ -1314,7 +1349,7 @@ Rocklage, He, Rucker, & Nordgren, 2022
 Rocklage, He, Rucker, & Nordgren, 2022
 :::
 
-## Calibrated Scale
+## Calibrated Statements
 
 <br></br>
 
@@ -1346,34 +1381,9 @@ scale %>%
     )
 ```
 
-## Calibrated Scale
-
-<br></br>
-
-On a 1-9 scale (where 1 = highly uncertain and 9 = highly certain), ...
 
 
-
-```{r}
-scale %>% 
-  group_by(ScaleR, Scale_Statement) %>% 
-  summarize(
-    Median = median(Scale_RatingR),
-    Mean = mean(Scale_RatingR) %>% round(2)
-    ) %>% 
-  #select(ScaleR, Scale_Statement) %>% 
-  knitr::kable(
-    col.names = c(
-      "Uncertainty Condition", 
-      "Statement",
-      "Median Rating",
-      "Mean Rating"
-      ),
-    align = "clcc" 
-    )
-```
-
-## Percentage Scale
+## Percentage Statements
 
 . . .
 
@@ -1400,30 +1410,7 @@ percent %>%
     )
 ```
 
-## Percentage Scale
-
-<br></br>
-
-```{r}
-percent %>% 
-  group_by(PercentR, Percent_Statement) %>% 
-  summarize(
-    Median = median(Percent_RatingR), 
-    Mean = mean(Percent_RatingR) %>% round(2)
-    ) %>% 
-  #select(PercentR, Percent_Statement) %>% 
-  knitr::kable(
-    col.names = c(
-      "Uncertainty Condition", 
-      "Statement",
-      "Median Rating",
-      "Mean Rating"
-      ),
-    align = "clcc" 
-    )
-```
-
-## Qualitative Scale 1
+## Qualitative Statement 1
 
 <br></br>
 
@@ -1453,49 +1440,8 @@ tc1 %>%
     )
 ```
 
-## Qualitative Scale 1
 
-<br></br>
-
-```{r}
-tc1 %>% 
-  select(!Lexicon_Uncertainty) %>% 
-  knitr::kable(
-    col.names = c(
-      "Uncertainty Condition", 
-      "Statement",
-      "Median Rating",
-      "Mean Rating"#,
-      #"Lexicon Score"
-      ),
-    align = "clcc"
-    )
-```
-
-
-## Qualitative Scale 1
-
-<br></br>
-
-```{r}
-tc1 %>% 
-  knitr::kable(
-    col.names = c(
-      "Uncertainty Condition", 
-      "Statement",
-      "Median Rating",
-      "Mean Rating",
-      "Lexicon Score"
-      ),
-    align = "clcc"
-    )
-```
-
-::: aside
-Rocklage, He, Rucker, & Nordgren, 2022
-:::
-
-## Qualitative Scale 2
+## Qualitative Statement 2
 
 <br></br>
 
@@ -1529,51 +1475,6 @@ tc1 %>%
 Same as first qualitative uncertainty manipulation, except for conditions -1, 0, 1, and 4.
 :::
 
-## Qualitative Scale 2
-
-<br></br>
-
-```{r}
-tc1 %>% 
-  select(!Lexicon_Uncertainty) %>% 
-  knitr::kable(
-    col.names = c(
-      "Uncertainty Condition", 
-      "Statement",
-      "Median Rating",
-      "Mean Rating"#,
-      #"Lexicon Score"
-      ),
-    align = "clcc"
-    )
-```
-
-::: aside
-Same as first qualitative uncertainty manipulation, except for conditions -1, 0, 1, and 4.
-:::
-
-## Qualitative Scale 2
-
-<br></br>
-
-```{r}
-tc1 %>% 
-  knitr::kable(
-    col.names = c(
-      "Uncertainty Condition", 
-      "Statement",
-      "Median Rating",
-      "Mean Rating",
-      "Lexicon Score"
-      ),
-    align = "clcc"
-    )
-```
-
-::: aside
-Rocklage, He, Rucker, & Nordgren, 2022
-:::
-
 ## Manipulation Pretests
 
 ```{r, fig.width=6, fig.align='center'}
@@ -1591,22 +1492,18 @@ ggplot(pooled, aes(x = factor(ConditionR), y = RatingR)) +
 
 
 
+<!-- ## Introducing the Leader -->
 
-## Experimental Design and Procedure{style='font-size: 23px'}
+<!-- In this game, we have paired you with a **Team Leader**. Your Team Leader's role is to provide **advice** to you during this game. (...) -->
 
-![](images/advice.gif){.absolute bottom="0" right="0" width="525"}
+<!-- The Team Leader may give you advice, but you both make **individual choices**. So your payout will be based only on your decision, NOT on the decisions made by your Team Leader. -->
 
-<br></br>
+<!-- In contrast, the Team Leader is **compensated** both on how well they play the game AND based on how well their **team** plays the game, of which you are one team member. After playing all three rounds, you will also be able to co-determine a bonus payment for the leader. -->
 
-- Five designs to confirm **generalizability** across different experimental tasks 
-- Prolific participants randomly assigned to one of five experimental **designs**
-  - Within each design, randomly assigned to one of nine experimental **conditions**
-  - 6,000 participants; 1,200 per design; $\pm$ 133 per condition
-- Three-round **incentivized** game
-- Paired with **leader** 
-- **Advice** expressed in varying degrees of uncertainty
-- Advice **quality** and **accuracy** held constant
-- Measure attitudinal and behavioral **consequences** 
+<!-- ## Introducing the Leader -->
+
+<!-- Meet your Team Leader, [pseudonym]. Hi. My name is [pseudonym], and I am your Team Leader. -->
+
 
 ## Study 1: Decoding Task
 
@@ -1647,78 +1544,6 @@ D. Anger
 **Message from Team Leader:**  
 I picked Pride here. If I had to express my certainty in terms of a percentage, I’d say I am [***1/10/20/40/50/60/80/90/99***]% sure that I got this one right. 
 
-## Study 3: Anagrams
-
-![](images/shutterstock_1396252886-min.jpg){.absolute right="0" width="325" top="160"}
-
-<br></br>
-
-. . .
-
-Can you unscramble the following letters?
-
-. . .
-
-
-**BIOGELO**  
-A. YES: This set of scrambled letters has a valid solution  
-B. NO: This set of scrambled letters does not have a valid solution  
-
-. . .
-
-
-**Message from Team Leader:**  
-I answered NO. I am...  <details>
-    <summary>
-    Show qualitative uncertainty statement
-    </summary>
-::: {.nonincremental}
-    
-  - *genuinely unsure. I’m desperately unconvinced whether*
-  - *desperately unconvinced whether*
-  - *unconvinced whether or not*
-  - *generally unconvinced whether or not*
-  - *examining whether*
-  - *generally convinced that*
-  - *reasonably convinced that*
-  - *convinced that*
-  - *absolutely convinced that*
-  
-:::
-    </details>
-...I’m right this time.
-
-## Study 4: Signaling game
-
-. . .
-
-![](images/S4.png){.absolute right="0" top="150"}
-
-
-<br></br>
-
-- Participants play **P1 Type B**
-- **P2** does not know which type they are
-- Participants earn more if P2 plays **right**
-- Their goal is to **signal** to P2 that they are Type B 
-
-. . .
-
-What is your selection?  
-A. 1  
-B. 2  
-C. 3  
-D. 4  
-
-
-<br></br>
-
-. . .
-
-
-**Message from Team Leader:**  
-I played 4. I am [***1/10/20/40/50/60/80/90/99***]% sure that's the best choice.
-
 ## Study 5: Prediction game
 
 . . .
@@ -1750,110 +1575,158 @@ How many of 100 people surveyed prefer having a **cat** to a **dog**?
 **Message from Team Leader:**  
 I said 40 here. I’ve been asked to quantify for you how certain I am that it’s within 5 points of the right answer. On a 1-9 scale (where 1 = highly uncertain and 9 = highly certain), I’d say my certainty level is a(n) [***1/2/3/4/5/6/7/8/9***]. 
 
-## Attitudinal Outcomes
+## Attitudinal Outcomes{background-image="images/Shutterstock_572571964.jpg" background-size="600px" background-position="85% 80%"}
 
-![](images/Shutterstock_572571964.jpg){.absolute right="0" top="150" height="400"}
+::: {.nonincremental}
+
+
 
 <br></br>
 
-- 7-point scales (1 = Strongly Disagree, 7 = Strongly Agree)
-- Leader effectiveness<details>
-    <summary>
-    Show items
-    </summary>
-    ::: {.nonincremental}
-  - Is a good leader
-  - Has strong leadership skills
-  - Has the ability to lead other people
-  :::
-    </details>
-- Warmth<details>
-    <summary>
-    Show items
-    </summary>
-    ::: {.nonincremental}
-  - Friendly
-  - Well-intentioned
-  - Trustworthy
-  - Warm
-  - Good-natured
-  - Sincere
-  :::
-    </details>
-- Competence<details>
-    <summary>
-    Show items
-    </summary>
-    ::: {.nonincremental}
-  - Competent
-  - Capable
-  - Independent
-  - Intelligent
-  - Skillful
-  :::
-    </details>
-    
+:::: {.columns}
+
+::: {.column width="33%"}
+
+**Leader effectiveness**
+
+- Is a good leader
+- Has strong leadership skills
+- Has the ability to lead other people
+
+:::
+
+::: {.column width="33%"}
+
+**Warmth**
+
+- Friendly
+- Well-intentioned
+- Trustworthy
+- Warm
+- Good-natured
+- Sincere
+
+:::
+
+::: {.column width="33%"}
+
+**Competence**
+
+- Competent
+- Capable
+- Independent
+- Intelligent
+- Skillful
+
+:::
+
+::::
+
+:::
+
 ::: aside
 Flynn & Lide, 2022; Fiske, Cuddy, Glick, & Xu, 2002 
 :::
 
-## Behavioral Outcomes
 
-<!-- ![](images/influence.png){.absolute bottom="0" right="0" width="400"} -->
 
-<br></br>
 
-- Advice-following/performance<details>
-    <summary>
-    Show details
-    </summary>
-In each round, we obtain a dichotomous measure indicating whether participants choose the leader's recommended strategy (0 = no, 1 = yes). We sum the three separate indicators into a single measure of advice-following
-    </details>
-- Leader selection<details>
-    <summary>
-    Show details
-    </summary>
-At the end of 3 rounds, participants move on to a new incentivized game and are asked whether they would like to keep the same team leader or be paired with a new team leader (with similar performance). We obtain a single dichotomous measure indicating whether participants choose to keep the same leader (leader selection: 0 = no, 1 = yes)
-    </details>
-- Leader reward<details>
-    <summary>
-    Show details
-    </summary>
-Participants are asked how much, if anything, they would like to award the leader, on a bonus payment slider ranging from \$0 to \$5
-    </details>
-    
-    
-## Analysis plan
+## Behavioral Outcomes 
+
+![](images/influence.png){.absolute bottom="0" right="0" width="400"}
+
+::: {.nonincremental}
+
+
 
 <br></br>
 
-- Assess **linear** effects of leader-expressed uncertainty (separately for each outcome)<details>
-    <summary>
-    Show details
-    </summary>
-    ::: {.nonincremental}
-  - Five separate **linear regression** models 
-  - Random-effects **meta-analysis** to obtain pooled effect size estimate
-  - Evidence for **H1** (**H2**): Pooled estimate significant and negative (positive) 
-  :::
-    </details>
-- Assess **nonlinear** effects of leader-expressed uncertainty (separately for each outcome)<details>
-    <summary>
-    Show details
-    </summary>
-    ::: {.nonincremental}
-  - Five separate **two-lines** tests
-  - Random-effects **meta-analysis** to obtain pooled effect size estimate
-  - Evidence for **H3** if first line positive **and** second line negative
-  :::
-    </details>
-- **Bayesian** analysis if both tests are inconclusive for a particular outcome
-    
+:::: {.columns}
 
-::: aside
-Morey & Rouder, 2021; Simonsohn, 2018
+::: {.column width="33%"}
+
+**Advice-following**
+
+The sum of three dichotomous measures indicating whether participants choose the leader's recommended strategy in each round
+
 :::
 
+::: {.column width="33%"}
+
+**Leader selection**
+
+Dichotomous measure indicating whether participants choose, at the end of 3 rounds, to keep the same leader or be paired with a new team leader
+
+:::
+
+::: {.column width="33%"}
+
+**Leader reward**
+
+How much, if anything, participant would like to award the leader, on a bonus payment slider ranging from \$0 to \$5
+
+:::
+
+::::
+
+:::
+
+::: aside
+
+Manian & Sheth, 2021
+
+:::
+
+<!-- ## Anticipated Results -->
+    
+
+## Adverse Leader Selection
+
+::: {.nonincremental}
+
+![](images/shutterstock_281218637.jpg "Leadership"){.absolute right="50" top="200" width="400" height="400"}
+
+
+
+<br></br>
+
+
+
+Why the **wrong** people make it to the **top**, and the **right** people do **not**... 
+
+
+
+<br></br>
+
+::: {.fragment .semi-fade-out}
+
+
+**Trait** lens
+
+- Ambition
+
+
+
+
+**Behavior** lens
+
+- (Un)certainty displays
+
+:::
+
+
+**Process** lens 
+
+- Opt-in selection mechanisms
+
+
+
+:::
+
+
+::: aside
+<!-- Alzahawi, Reit, & Flynn, *under review*; Alzahawi & Flynn, *under review*; Alzahawi & Flynn, *in prep* -->
+:::
 
 ## Process{.center style='font-size: 95px; text-align: center;'}
 
@@ -2567,4 +2440,330 @@ For hypothesis 2, we predicted a null relationship between ambition and third-pa
 
 To be able to claim support for the null hypothesis, we ran two additional tests. First, we ran an equivalence test. This test allowed us to declare, in both studies, the absence of a meaningful relationship between ambition and third-party ratings of leader effectiveness. Second, we calculated Bayes Factors, which allow us to quantify how much the data support the null hypothesis. We find that the data are 6 to 20 times as likely under the null hypothesis than under the alternative hypothesis. 
 
+
+:::
+
+## Meta-Analysis{visibility="uncounted"}
+
+![](images/meta.png){.absolute right="0" bottom="0"}
+
+<br></br>
+
+- Studies that manipulate or measure expressed uncertainty
+  - Include a zero-order effect for an interpersonal outcome
+  - Minimize common-method bias (split-samples/time lags)
+- Obtained correlation in support of H1/H2
+  - Recoded to express effect of *un*certainty
+- Random-effects meta-analysis
+  - *k* = 20 studies
+  - *m* = 87 effect sizes
+  - *N* = 28,594 subjects
+  
+
+
+## Meta-Analysis{visibility="uncounted"}
+
+```{r}
+library(dplyr)
+library(here)
+table1 <- read.csv(here("data/effectsizes.csv")) %>% 
+  select(Paper, Study, predictor, outcome, es_table)
+table1$Paper[duplicated(table1$Paper)] <- ""
+table1$Study[duplicated(table1$Study)] <- ""
+table1$Study <- gsub(".* ", "", table1$Study)
+table1$Study <- gsub("S", "", table1$Study)
+table1$es_table <- gsub("*", "", table1$es_table, fixed = TRUE)
+
+names(table1) <- c("Paper", "Study", "Predictor", "Outcome", "Effect Size")
+
+DT::datatable(
+  table1, 
+  fillContainer = FALSE, 
+  options = list(pageLength = 9),
+  rownames = FALSE
+  )
+```
+
+
+  
+## Meta-Analysis: H1{visibility="uncounted"}
+
+. . .
+
+![](images/H1.jpg){.absolute width="900" height="600"}
+
+## Meta-Analysis: H2{visibility="uncounted"}
+
+. . .
+
+![](images/H2.jpg){.absolute width="900" height="600"}
+
+## Meta-Analysis: Takeaways{visibility="uncounted"}
+
+<br></br>
+
+. . . 
+
+Meta-analytic estimate of the interpersonal effect of expressed uncertainty
+
+- **H1** (negative): *r* = $-$.26, 95% CI [$-$.30, $-$.23] 
+- **H2** (positive): *r* = .13, 95% CI [.07, .20]
+
+. . .
+
+![](images/mediation2.webp){.absolute right="0" bottom="120"}
+
+<br></br>
+
+ 
+We suggest a **non-linear** test (**H3**)   
+to **reconcile** these conflicting results
+
+
+
+::: aside
+Anderson, Brion, Moore, & Kennedy, 2012; Cojuharenco & Karelaia, 2020; De Cremer & Van Knippenberg, 2004; Gaertig & Simmons, 2018; Hu, Erdogan, Jiang, Bauer, & Liu, 2018; Kennedy, Anderson, & Moore, 2013; Manian & Sheth, 2021; Ou, Tsui, Kinicki, Walman, Xiao, & Song, 2014; Owens, Johnson, & Mitchell, 2013; Rego, Cunha, & Simpson, 2018; Ronay, Oostrom, Lehmann-Willenbrock, Mayoral, & Rusch, 2019; Sniezek & Van Swol, 2001; Tenney, MacCoun, Spellman, & Hastie, 2007; Tenney & Spellman, 2011; Tenney, Spellman, & MacCoun, 2008; Tenney, Meikle, Hunsaker, Moore, & Anderson, 2019; Van Swol & Sniezek, 2005; Wang, Liu, & Zhu, 2018; Wang, Owens, Li, & Shi, 2018; Zapata & Hayes-Jones, 2019
+:::
+
+
+## Calibrated Statements{visibility="uncounted"} 
+
+<br></br>
+
+On a 1-9 scale (where 1 = highly uncertain and 9 = highly certain), ...
+
+
+
+```{r}
+scale %>% 
+  group_by(ScaleR, Scale_Statement) %>% 
+  summarize(
+    Median = median(Scale_RatingR),
+    Mean = mean(Scale_RatingR) %>% round(2)
+    ) %>% 
+  #select(ScaleR, Scale_Statement) %>% 
+  knitr::kable(
+    col.names = c(
+      "Uncertainty Condition", 
+      "Statement",
+      "Median Rating",
+      "Mean Rating"
+      ),
+    align = "clcc" 
+    )
+```
+
+
+## Percentage Scale{visibility="uncounted"} 
+
+<br></br>
+
+```{r}
+percent %>% 
+  group_by(PercentR, Percent_Statement) %>% 
+  summarize(
+    Median = median(Percent_RatingR), 
+    Mean = mean(Percent_RatingR) %>% round(2)
+    ) %>% 
+  #select(PercentR, Percent_Statement) %>% 
+  knitr::kable(
+    col.names = c(
+      "Uncertainty Condition", 
+      "Statement",
+      "Median Rating",
+      "Mean Rating"
+      ),
+    align = "clcc" 
+    )
+```
+
+## Qualitative Statement 1{visibility="uncounted"} 
+
+<br></br>
+
+```{r}
+tc1 %>% 
+  select(!Lexicon_Uncertainty) %>% 
+  knitr::kable(
+    col.names = c(
+      "Uncertainty Condition", 
+      "Statement",
+      "Median Rating",
+      "Mean Rating"#,
+      #"Lexicon Score"
+      ),
+    align = "clcc"
+    )
+```
+
+## Qualitative Statement 1{visibility="uncounted"} 
+
+<br></br>
+
+```{r}
+tc1 %>% 
+  knitr::kable(
+    col.names = c(
+      "Uncertainty Condition", 
+      "Statement",
+      "Median Rating",
+      "Mean Rating",
+      "Lexicon Score"
+      ),
+    align = "clcc"
+    )
+```
+
+::: aside
+Rocklage, He, Rucker, & Nordgren, 2022
+:::
+
+
+## Qualitative Statement 2{visibility="uncounted"} 
+
+<br></br>
+
+```{r}
+tc1 %>% 
+  select(!Lexicon_Uncertainty) %>% 
+  knitr::kable(
+    col.names = c(
+      "Uncertainty Condition", 
+      "Statement",
+      "Median Rating",
+      "Mean Rating"#,
+      #"Lexicon Score"
+      ),
+    align = "clcc"
+    )
+```
+
+::: aside
+Same as first qualitative uncertainty manipulation, except for conditions -1, 0, 1, and 4.
+:::
+
+## Qualitative Statement 2{visibility="uncounted"} 
+
+<br></br>
+
+```{r}
+tc1 %>% 
+  knitr::kable(
+    col.names = c(
+      "Uncertainty Condition", 
+      "Statement",
+      "Median Rating",
+      "Mean Rating",
+      "Lexicon Score"
+      ),
+    align = "clcc"
+    )
+```
+
+::: aside
+Rocklage, He, Rucker, & Nordgren, 2022
+:::
+
+## Study 3: Anagrams{visibility="uncounted"}
+
+![](images/shutterstock_1396252886-min.jpg){.absolute right="0" width="325" top="160"}
+
+<br></br>
+
+. . .
+
+Can you unscramble the following letters?
+
+. . .
+
+
+**BIOGELO**  
+A. YES: This set of scrambled letters has a valid solution  
+B. NO: This set of scrambled letters does not have a valid solution  
+
+. . .
+
+
+**Message from Team Leader:**  
+I answered NO. I am...  <details>
+    <summary>
+    Show qualitative uncertainty statement
+    </summary>
+::: {.nonincremental}
+    
+  - *genuinely unsure. I’m desperately unconvinced whether*
+  - *desperately unconvinced whether*
+  - *unconvinced whether or not*
+  - *generally unconvinced whether or not*
+  - *examining whether*
+  - *generally convinced that*
+  - *reasonably convinced that*
+  - *convinced that*
+  - *absolutely convinced that*
+  
+:::
+    </details>
+...I’m right this time.
+
+## Study 4: Signaling game{visibility="uncounted"}
+
+. . .
+
+![](images/S4.png){.absolute right="0" top="150"}
+
+
+<br></br>
+
+- Participants play **P1 Type B**
+- **P2** does not know which type they are
+- Participants earn more if P2 plays **right**
+- Their goal is to **signal** to P2 that they are Type B 
+
+. . .
+
+What is your selection?  
+A. 1  
+B. 2  
+C. 3  
+D. 4  
+
+
+<br></br>
+
+. . .
+
+
+**Message from Team Leader:**  
+I played 4. I am [***1/10/20/40/50/60/80/90/99***]% sure that's the best choice.
+
+
+## Analysis plan{visibility="uncounted"}
+
+<br></br>
+
+- Assess **linear** effects of leader-expressed uncertainty (separately for each outcome)<details>
+    <summary>
+    Show details
+    </summary>
+    ::: {.nonincremental}
+  - Five separate **linear regression** models 
+  - Random-effects **meta-analysis** to obtain pooled effect size estimate
+  - Evidence for **H1** (**H2**): Pooled estimate significant and negative (positive) 
+  :::
+    </details>
+- Assess **nonlinear** effects of leader-expressed uncertainty (separately for each outcome)<details>
+    <summary>
+    Show details
+    </summary>
+    ::: {.nonincremental}
+  - Five separate **two-lines** tests
+  - Random-effects **meta-analysis** to obtain pooled effect size estimate
+  - Evidence for **H3** if first line positive **and** second line negative
+  :::
+    </details>
+- **Bayesian** analysis if both tests are inconclusive for a particular outcome
+    
+
+::: aside
+Morey & Rouder, 2021; Simonsohn, 2018
 :::
