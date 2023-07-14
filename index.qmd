@@ -132,22 +132,23 @@ Why the **wrong** people make it to the **top**, and the **right** people do **n
 
 . . . 
 
-**Behavior** lens
-
-- (Un)certainty displays
-
-. . . 
-
 **Process** lens 
 
 - Opt-in selection mechanisms
+
+
+. . . 
+
+**Behavior** lens
+
+- (Un)certainty displays
 
 ::: aside
 <!-- Alzahawi, Reit, & Flynn, *under review*; Alzahawi & Flynn, *under review*; Alzahawi & Flynn, *in prep* -->
 :::
 
 
-## Adverse Leader Selection
+## Adverse Leader Selection{visibility="uncounted"}
 
 ::: {.nonincremental}
 
@@ -174,14 +175,13 @@ Why the **wrong** people make it to the **top**, and the **right** people do **n
 
 ::: {.fragment .semi-fade-out}
 
-**Behavior** lens
-
-- (Un)certainty displays
-
-
 **Process** lens 
 
 - Opt-in selection mechanisms
+
+**Behavior** lens
+
+- (Un)certainty displays
 
 :::
 
@@ -207,7 +207,11 @@ Why the **wrong** people make it to the **top**, and the **right** people do **n
 
 ::: {.column width="70%"}
 
+::: {.nonincremental}
+
 - Ambition is "a persistent and generalized striving for success, attainment, and accomplishment"
+
+:::
 
 - Ambitious individuals are more likely to emerge as leaders
   - Higher levels of education
@@ -237,7 +241,7 @@ Ambition is defined as a persistent and generalized striving for success, attain
 But are these individuals who are highly ambitious and leadership-prone also more effective in leadership roles? 
 :::
 
-## Ambition ➙ Leader Effectiveness?{background-image="images/self-aware.png" background-size="530px" background-position="90% 30%"}
+## Ambition ➙ Leader Effectiveness?{background-image="images/self-aware.png" background-size="520px" background-position="95% 30%"}
 
 <br></br>
 
@@ -604,97 +608,20 @@ Humberg, Dufner, Schonbrodt, Geukes, Hutteman, Küfner, van Zalk, Denissen, Nest
 
 <!-- ::: -->
 
-<!-- ## Plausible Polynomial Models -->
 
+## Uncorroborated Positive Self-Views Model{style='font-size: 20px'}
 
-<!-- . . . -->
-
-<!-- **Main effect models** -->
-
-<!-- - Self-views only -->
-<!-- - Third-party views only -->
-<!-- - Both self-views and third-party views (additive) -->
-<!-- - Both self-views and third-party views (interactive) -->
-
-<!-- . . . -->
-
-<!-- **Congruence models** -->
-
-<!-- - Self-enhancement (discrepancy between self-views and third-party views) -->
-<!-- - Self-insight (agreement between self-views and third-party views) -->
-
-<!-- . . . -->
-
-<!-- **Curvilinear models** -->
-
-<!-- - Self-views -->
-<!-- - Third-party views -->
-
-
-<!-- ::: aside -->
-
-<!-- Humberg, Dufner, Schonbrodt, Geukes, Hutteman, Küfner, van Zalk, Denissen, Nestler, & Back (2019)  -->
-
-<!-- ::: -->
-
-<!-- ::: {.footer} -->
-<!-- [`r icon_style(icons::academicons("preregistered"), scale = 2.5, fill = "#035AA6")` `r icon_style(icons::academicons("open-materials"), scale = 2.5, fill = "#035AA6")` `r icon_style(icons::academicons("open-data"), scale = 2.5, fill = "#035AA6")` [**bit.ly/ambition-osf**]{style="font-size: 150%"}](https://bit.ly/ambition-osf) -->
-<!-- ::: -->
-
-<!-- ## Plausible Polynomial Models{visibility="uncounted"} -->
-
-<!-- **Main effect models** -->
-
-<!-- ::: {.nonincremental} -->
-
-<!-- - Self-views only -->
-
-<!-- ::: -->
-
-
-
-<!-- ::: aside -->
-
-<!-- Humberg, Dufner, Schonbrodt, Geukes, Hutteman, Küfner, van Zalk, Denissen, Nestler, & Back (2019)  -->
-
-<!-- ::: -->
-
-<!-- ::: {.footer} -->
-<!-- [`r icon_style(icons::academicons("preregistered"), scale = 2.5, fill = "#035AA6")` `r icon_style(icons::academicons("open-materials"), scale = 2.5, fill = "#035AA6")` `r icon_style(icons::academicons("open-data"), scale = 2.5, fill = "#035AA6")` [**bit.ly/ambition-osf**]{style="font-size: 150%"}](https://bit.ly/ambition-osf) -->
-<!-- ::: -->
-
-<!-- ## Plausible Polynomial Models{visibility="uncounted"} -->
-
-<!-- **Main effect models** -->
-
-<!-- ::: {.nonincremental} -->
-
-<!-- - Self-views only: **Uncorroborated Positive Self-Views Model** -->
-
-<!-- ::: -->
-
-
-<!-- ::: aside -->
-
-<!-- Humberg, Dufner, Schonbrodt, Geukes, Hutteman, Küfner, van Zalk, Denissen, Nestler, & Back (2019)  -->
-
-<!-- ::: -->
-
-<!-- ::: {.footer} -->
-<!-- [`r icon_style(icons::academicons("preregistered"), scale = 2.5, fill = "#035AA6")` `r icon_style(icons::academicons("open-materials"), scale = 2.5, fill = "#035AA6")` `r icon_style(icons::academicons("open-data"), scale = 2.5, fill = "#035AA6")` [**bit.ly/ambition-osf**]{style="font-size: 150%"}](https://bit.ly/ambition-osf) -->
-<!-- ::: -->
-
-
-## Uncorroborated Positive Self-Views{style='font-size: 24px'}
 
 Ambition is fully **calibrated to self-views** and **not to third-party views** of leader effectiveness
+
 
 - Ambition is **positively** related to **self**-views of leader effectiveness (i.e., $\beta_1$ > 0)
 - Ambition is **not** related to **third-party** views of leader effectiveness (i.e., $\beta_2$ = 0)
 
+
 . . .
 
-![](images/model.png){.absolute right="350" bottom="40" height="440"}
+![](images/model.png){.absolute right="350" bottom="40" height="460"}
 
 
 
@@ -728,13 +655,13 @@ The **Uncorroborated Positive Self-Views model** provides the best fit with the 
 
 . . .
 
-Self-views of leader effectiveness have a **positive relationship** with ambition
+Ambition has a **positive relationship** with self-views of leader effectiveness
 
 - $\beta_1$ = 0.28, 95% CI [0.14, 0.42], *z* = 3.93, *p* < .001
 
 . . .
 
-Third-party perceptions have **no relationship** with ambition
+Ambition has **no relationship** with third-party perceptions of leader effectiveness
 
 - $\beta_2$ = 0
 
@@ -785,13 +712,13 @@ The **Uncorroborated Positive Self-Views model** provides the best fit with the 
 
 . . .
 
-Self-views of leader effectiveness have a **positive relationship** with motivation to lead
+Motivation to lead has a **positive relationship** with self-views of leader effectiveness
 
 - $\beta_1$ = 0.48, 95% CI [0.27, 0.68], *z* = 4.59, *p* < .001
 
 . . .
 
-Third-party perceptions have **no relationship** with motivation to lead
+Motivation to lead has **no relationship** with third-party perceptions of leader effectiveness
 
 - $\beta_2$ = 0
 
@@ -840,13 +767,13 @@ The **Uncorroborated Positive Self-Views model** provides the best fit with the 
 
 . . .
 
-Self-views of leader effectiveness have a **positive relationship** with ambition
+Drive to achieve has a **positive relationship** with self-views of leader effectiveness
 
 - $\beta_1$ = 0.22, 95% CI [0.11, 0.34], *z* = 3.77, *p* < .001
 
 . . .
 
-Third-party perceptions have **no relationship** with ambition
+Drive to achieve has **no relationship** with third-party perceptions of leader effectiveness
 
 - $\beta_2$ = 0
 
@@ -929,7 +856,6 @@ Putting these two findings together, we conclude that we have identified an emer
   - Assumption: those with the greatest **leadership potential** will apply
   - We show that this assumption may be **unfounded**
 - We may need an **alternative approach** to leader selection and development
-  - How can we select the best future leaders?
 
 
 ::: aside
@@ -973,17 +899,17 @@ Why the **wrong** people make it to the **top**, and the **right** people do **n
 
 :::
 
+**Process** lens 
+
+- Opt-in selection mechanisms
+
+
+::: {.fragment .semi-fade-out fragment-index=1}
 
 **Behavior** lens
 
 - (Un)certainty displays
 
-
-::: {.fragment .semi-fade-out fragment-index=1}
-
-**Process** lens 
-
-- Opt-in selection mechanisms
 
 :::
 
@@ -997,6 +923,127 @@ Why the **wrong** people make it to the **top**, and the **right** people do **n
 :::
 
 
+## Process{.center style='font-size: 95px; text-align: center;'}
+
+## Who Shall Lead? The Effectiveness Implications of Self-Selection into Leadership Roles{.center style='text-align: center;'}
+
+## Self-Selection into Candidate Pools
+
+:::: {.columns}
+
+::: {.column width="40%"}
+<br></br>
+
+- Leader selection processes rely on a **strong default of self-selection**
+- Individuals must actively "**opt-in**" to the candidate pool for leadership roles
+- Despite the ubiquity of this default... 
+- Unknown how it affects **composition** and **effectiveness** of candidate pools for leadership roles
+
+:::
+
+::: {.column width="60%"}
+
+
+![](images/Shutterstock_1643439796.jpg)
+:::
+
+::::
+
+::: aside
+Erkal, Gangadharan, & Xiao, 2022; He, Kang, & Lacetera, 2021; Chan & Drasgow, 2001
+:::
+
+
+## Effectiveness Implications{style='font-size: 23px'}
+
+![](images/pool.webp){.absolute right="0" bottom="0" height="375"}
+
+<br></br>
+
+- Examine the **effectiveness** implications of **self-selection** into candidate pools for leadership roles
+- Hypothesize that self-selection induces **adverse leader selection**, creating a candidate pool that is...
+  - **Underrepresented** on attributes helpful to leadership effectiveness (e.g., prosociality)
+  - **Overrepresented** on attributes harmful or unrelated to leadership effectiveness (e.g., ambition, overconfidence, narcissism)
+- Compare **opt-in** vs. **opt-out** selection mechanisms
+- Goal: identify institutional **interventions** that may... 
+  - Foster **diversity** in upper-level positions 
+  - Promote workplace **advancement** for individuals  
+  with strong leadership **potential**
+  
+  
+## Self-Selection: Hypotheses
+
+![](images/opt.jpeg){.absolute bottom="0" right="0" height="440"}
+
+
+. . .
+
+<br></br>
+
+*H1*: **Opt-in** (vs. **opt-out**) mechanisms **decrease** the aggregate **effectiveness** of candidate pools for leadership roles, through...
+
+<br></br>
+
+. . .
+
+*H1a*: **Greater** presence of effectiveness-**inhibiting** traits
+
+. . .
+
+*H1b*: **Greater** presence of effectiveness-**irrelevant** traits
+
+. . .
+
+*H1c*: **Lesser** presence of effectiveness-**inducing** traits
+
+
+## Adverse Leader Selection
+
+::: {.nonincremental}
+
+![](images/shutterstock_281218637.jpg "Leadership"){.absolute right="50" top="200" width="400" height="400"}
+
+
+
+<br></br>
+
+
+
+Why the **wrong** people make it to the **top**, and the **right** people do **not**... 
+
+
+
+<br></br>
+
+::: {.fragment .semi-fade-out}
+
+
+**Trait** lens
+
+- Ambition
+
+
+
+**Process** lens 
+
+- Opt-in selection mechanisms
+
+
+:::
+
+
+**Behavior** lens
+
+- (Un)certainty displays
+
+
+
+:::
+
+
+::: aside
+<!-- Alzahawi, Reit, & Flynn, *under review*; Alzahawi & Flynn, *under review*; Alzahawi & Flynn, *in prep* -->
+:::
 
 
 ## Behavior{.center style='font-size: 95px; text-align: center;'}
@@ -1677,135 +1724,16 @@ Manian & Sheth, 2021
 
 :::
 
-<!-- ## Anticipated Results -->
+## Anticipated Results
     
-
-## Adverse Leader Selection
-
-::: {.nonincremental}
-
-![](images/shutterstock_281218637.jpg "Leadership"){.absolute right="50" top="200" width="400" height="400"}
-
-
-
-<br></br>
-
-
-
-Why the **wrong** people make it to the **top**, and the **right** people do **not**... 
-
-
-
-<br></br>
-
-::: {.fragment .semi-fade-out}
-
-
-**Trait** lens
-
-- Ambition
-
-
-
-
-**Behavior** lens
-
-- (Un)certainty displays
-
-:::
-
-
-**Process** lens 
-
-- Opt-in selection mechanisms
-
-
-
-:::
-
-
-::: aside
-<!-- Alzahawi, Reit, & Flynn, *under review*; Alzahawi & Flynn, *under review*; Alzahawi & Flynn, *in prep* -->
-:::
-
-## Process{.center style='font-size: 95px; text-align: center;'}
-
-## Who Shall Lead? The Effectiveness Implications of Self-Selection into Leadership Roles{.center style='text-align: center;'}
-
-## Self-Selection into Candidate Pools
-
-:::: {.columns}
-
-::: {.column width="40%"}
-<br></br>
-
-- Leader selection processes rely on a **strong default of self-selection**
-- Individuals must actively "**opt-in**" to the candidate pool for leadership roles
-- Despite the ubiquity of this default... 
-- Unknown how it affects **composition** and **effectiveness** of candidate pools for leadership roles
-
-:::
-
-::: {.column width="60%"}
-
-
-![](images/Shutterstock_1643439796.jpg)
-:::
-
-::::
-
-::: aside
-Erkal, Gangadharan, & Xiao, 2022; He, Kang, & Lacetera, 2021; Chan & Drasgow, 2001
-:::
-
-
-## Effectiveness Implications{style='font-size: 23px'}
-
-![](images/pool.webp){.absolute right="0" bottom="0" height="375"}
-
-<br></br>
-
-- Examine the **effectiveness** implications of **self-selection** into candidate pools for leadership roles
-- Hypothesize that self-selection induces **adverse leader selection**, creating a candidate pool that is...
-  - **Underrepresented** on attributes helpful to leadership effectiveness (e.g., prosociality)
-  - **Overrepresented** on attributes harmful or unrelated to leadership effectiveness (e.g., ambition, overconfidence, narcissism)
-- Compare **opt-in** vs. **opt-out** selection mechanisms
-- Goal: identify institutional **interventions** that may... 
-  - Foster **diversity** in upper-level positions 
-  - Promote workplace **advancement** for individuals  
-  with strong leadership **potential**
-  
-  
-## Self-Selection: Hypotheses
-
-![](images/opt.jpeg){.absolute bottom="0" right="0" height="440"}
-
-
-. . .
-
-<br></br>
-
-*H1*: **Opt-in** (vs. **opt-out**) mechanisms **decrease** the aggregate **effectiveness** of candidate pools for leadership roles, through...
-
-<br></br>
-
-. . .
-
-*H1a*: **Greater** presence of effectiveness-**inhibiting** traits
-
-. . .
-
-*H1b*: **Greater** presence of effectiveness-**irrelevant** traits
-
-. . .
-
-*H1c*: **Lesser** presence of effectiveness-**inducing** traits
 
 
 ## Thank You!{.center style='font-size: 95px; text-align: center;'}
 
+## Ambition{.center style='font-size: 70px; text-align: center;' visibility="uncounted"}
 
-## Is Ambition Well-Calibrated? {visibility="uncounted"}
+
+## Study Overview {visibility="uncounted"}
 
 ![](images/leader.png){.absolute right="0" top="215" height="250" width="350"}
 
@@ -1841,250 +1769,7 @@ In Study 2, we examined the relationship between the ambition of MBA students an
 In Study 3, we randomly assigned participants from a nationally representative sample to a leader or a follower role in a group decision-making task, and examined the relationship between leader ambition and follower-rated effectiveness.  
 :::
 
-## Pilot Study{visibility="uncounted"}
-
-![](images/Shutterstock_2256363121.jpg){.absolute right="0" top="0" width="320"}
-
-- **Archival** data from the Higher Education Research Institute
-  - **T1**: 14,235,487 college **freshmen** at 1,840 institutions in the US
-  - **T2**: 527,159 college **seniors** at 722 institutions in the US
-- Assess the **time-lagged effect of ambition** on...
-  - Leader emergence (Proof of concept)
-  - Self-rated leader effectiveness (H1)
-- **T1 Ambition**<details>
-    <summary>
-    Show items
-    </summary>
-    ::: {.nonincremental}
-  - Rate yourself on **drive to achieve** as compared with the average person your age  
-  (Highest 10%, Above Average, Average, Below Average, Lowest 10%)
-  - Please indicate the importance to you personally of **becoming a community leader** (Essential, Very Important, Somewhat Important, Not Important)
-  :::
-    </details>
-- **T2 Leader emergence**<details>
-    <summary>
-    Show items
-    </summary>
-    ::: {.nonincremental}
-  - Since entering this college have you:  
-  Participated in **student government** (Yes/No)  
-  Participated in **leadership training** (Yes/No)
-  :::
-    </details>
-- **T2 Leader effectiveness**<details>
-    <summary>
-    Show items
-    </summary>
-    ::: {.nonincremental}
-  - Rate yourself on **leadership ability** as compared with the average person your age  
-  (Highest 10%, Above Average, Average, Below Average, Lowest 10%)
-  :::
-    </details>
-
-
-::: {.footer}
-[`r icon_style(icons::academicons("preregistered"), scale = 2.5, fill = "#035AA6")` `r icon_style(icons::academicons("open-materials"), scale = 2.5, fill = "#035AA6")` `r icon_style(icons::academicons("open-data"), scale = 2.5, fill = "#035AA6")` [**bit.ly/ambition-osf**]{style="font-size: 150%"}](https://bit.ly/ambition-osf)
-:::
-
-## Proof of Concept: Leader Emergence{style='font-size: 23px' visibility="uncounted"}
-
-![](images/Shutterstock_1643439796.jpg){.absolute right="0" bottom="0" width="440"}
-
-<br></br>
-
-. . .
-
-Four logistic regression models assessing **time-lagged effect of ambition** on leader emergence
-
-. . .
-
-
-::: panel-tabset
-
-## **Drive to achieve**
-
-
-
-Effect of **drive to achieve** (T1) on log odds of participation in...
-
-- **Student government** (T2)  
-*b* = 0.32, 95% CI [0.30, 0.33], *z* = 40.26, *p* < .001
-- **Leadership training** (T2)  
-*b* = 0.33, 95% CI [0.32, 0.35], *z* = 50.78, *p* < .001
-- Comparing students with the **lowest** vs. **highest** drive to achieve... 
-  - **5%** vs. **17%** chance of participating in student government  
-  - **10%** vs. **30%** chance of participating in leadership training
-
-## **Community leader**
-
-
-Effect of rated **importance of becoming a community leader** (T1) on log odds of participation in...
-
-- **Student government** (T2)  
-*b* = 0.52, 95% CI [0.51, 0.53], *z* = 74.02, *p* < .001
-- **Leadership training** (T2)  
-*b* = 0.44, 95% CI [0.43, 0.45], *z* = 78.76, *p* < .001
-- Comparing students with the **lowest** vs. **highest** rated importance...
-  - **7%** vs. **26%** chance of participating in student government  
-  - **16%** vs. **42%** chance of participating in leadership training
-
-:::
-
-
-::: {.footer}
-[`r icon_style(icons::academicons("preregistered"), scale = 2.5, fill = "#035AA6")` `r icon_style(icons::academicons("open-materials"), scale = 2.5, fill = "#035AA6")` `r icon_style(icons::academicons("open-data"), scale = 2.5, fill = "#035AA6")` [**bit.ly/ambition-osf**]{style="font-size: 150%"}](https://bit.ly/ambition-osf)
-:::
-
-## Pilot Results: Leader Effectiveness{visibility="uncounted"}
-
-![](images/Shutterstock_2256363121.jpg){.absolute right="0" bottom="24" width="310"}
-
-. . .
-
-<br></br>
-
-
-Relationship between ambition and self-rated leadership effectiveness (**Hypothesis 1**)
-
-. . .
-
-::: panel-tabset
-
-## **Time-lagged**
-
-**T2 Self-rated leadership ability** is positively related to...
-
-- **T1 Drive to achieve**   
-*r* = 0.260, 95% CI [0.256, 0.263], *t*(256,047) = 136.08, *p* < .001
-- **T1 Importance of becoming a community leader**    
-*r* = 0.299, 95% CI [0.295, 0.302], *t*(218,428) = 146.20, *p* < .001 
-
-## **Cross-sectional**
-
-- Among **freshmen**, self-rated leadership ability is positively related to...
-  - **Drive to achieve**    
-  *r* = 0.397, 95% CI [0.396, 0.397], *t*(9,648,265) = 1,343.02, *p* < .001
-  - **Importance of becoming a community leader**   
-  *r* = 0.391, 95% CI [0.391, 0.392], *t*(6,105,415) = 1,050.87, *p* < .001
-- Among **seniors**, self-rated leadership ability is positively related to...
-  - **Drive to achieve**   
-  *r* = 0.420, 95% CI [0.418, 0.422], *t*(487,598) = 323.16, *p* < .001
-  - **Importance of becoming a community leader**    
-  *r* = 0.386, 95% CI [0.384, 0.389], *t*(440,863) = 277.99, *p* < .001
-
-
-:::
-
-
-
-::: {.footer}
-[`r icon_style(icons::academicons("preregistered"), scale = 2.5, fill = "#035AA6")` `r icon_style(icons::academicons("open-materials"), scale = 2.5, fill = "#035AA6")` `r icon_style(icons::academicons("open-data"), scale = 2.5, fill = "#035AA6")` [**bit.ly/ambition-osf**]{style="font-size: 150%"}](https://bit.ly/ambition-osf)
-:::
-
-## Study 2{visibility="uncounted"}
-
-- Expert-evaluated **leadership skills** competition
-<details>
-    <summary>
-    Show items
-    </summary>
-  ::: {.nonincremental}
-  - This person has all the qualities that would make them an effective leader
-  - This person would succeed as a leader in my company
-  :::
-    </details>
-- *N* = 829 ratings of 181 MBA students
-
-. . .
-
-**H2**: **Null** relationship between ambition and **other**-ratings of leadership effectiveness
-
-- *b* = $-0.06$, 95% CI [$-0.16$, $0.04$], *t*(175.09) = $-1.18$, *p* = .241 
-- Third-party ratings of leader effectiveness are **statistically equivalent**, regardless of ambition
-<details>
-    <summary>
-    Show details
-    </summary>
-  ::: {.nonincremental}
-  - Significant test against $\beta =.20$, *t*(175.09) = $-5.04$, *p* < .001
-  - Significant test against $\beta = -.20$, *t*(175.09) = $2.69$, *p* = .004
-  :::
-    </details>
-- **Bayes Factors** show **support for the null** hypothesis
-<details>
-    <summary>
-    Show details
-    </summary>
-  ::: {.nonincremental}
-  - $BF_{01}$ = 3.64
-  - The data are over 3 times as likely under a null model
-  :::
-    </details>
-
-::: {.footer}
-[`r icon_style(icons::academicons("open-materials"), scale = 2.5, fill = "#035AA6")` `r icon_style(icons::academicons("open-data"), scale = 2.5, fill = "#035AA6")` [**bit.ly/ambition-osf**]{style="font-size: 150%"}](https://bit.ly/ambition-osf)
-:::
-
-::: {.notes}
-In Study 2, we relied on a leadership challenge run during the Stanford MBA program. During the challenge, expert judges, who were current executives across a range of industries, rated each individual competitor on their leadership effectiveness. 
-
-In support of Hypothesis 2, we find a nonsignificant relationship between ambition and expert ratings of leadership effectiveness. We again run an equivalence test and find that there is no meaningful relationship between ambition and third-party ratings of leader effectiveness. We also computed Bayes Factors, and find that the data are over 3 times as likely under the null hypothesis than under the alternative. 
-
-:::
-
-## Study 3{visibility="uncounted"} 
-
-- Group decision-making task with **randomly assigned** leaders vs. followers
-- Nationally **representative sample**: *N* = 305 ratings of 101 group leaders
-<details>
-    <summary>
-    Show items
-    </summary>
-  ::: {.nonincremental}
-  - I would want this person to be my boss or supervisor at work
-  - This person has clear leadership potential
-  - Overall, this person was NOT an effective leader (R)
-  - If I had the chance, I would definitely want to have this person as my leader again
-  - Looking ahead, I expect this person will experience great success as a leader
-  :::
-    </details>
-
-. . .
-
-**H2**: **Null** relationship between ambition and **other**-ratings of leadership effectiveness
-
-- *b* = $-0.06$, 95% CI [$-0.18$, $0.06$], *t*(98.99) = $-1.02$, *p* = .312
-- Third-party ratings of leader effectiveness are **statistically equivalent**, regardless of ambition
-<details>
-    <summary>
-    Show details
-    </summary>
-  ::: {.nonincremental}
-  - Significant test against $\beta = .20$, *t*(98.99) = $-4.36$, *p* < .001
-  - Significant test against $\beta =-.20$, *t*(98.99) = $2.33$, *p* = .011
-  :::
-    </details>
-- **Bayes Factors** show **support for the null** hypothesis
-<details>
-    <summary>
-    Show details
-    </summary>
-  ::: {.nonincremental}
-  - $BF_{01}$ = 3.98
-  - The data are about 4 times as likely under a null model
-  :::
-    </details>
-
-::: {.footer}
-[`r icon_style(icons::academicons("preregistered"), scale = 2.5, fill = "#035AA6")` `r icon_style(icons::academicons("open-materials"), scale = 2.5, fill = "#035AA6")` `r icon_style(icons::academicons("open-data"), scale = 2.5, fill = "#035AA6")` [**bit.ly/ambition-osf**]{style="font-size: 150%"}](https://bit.ly/ambition-osf)
-:::
-
-::: {.notes}
-In Study 3, we recruited a nationally representative sample to participate in an hour-long leadership simulation that focused on a group decision-making task. Participants were randomly assigned to act as the leader or one of the three followers. 
-
-In support of Hypothesis 2, we find a nonsignificant relationship between ambition and follower-rated effectiveness. We again run an equivalence test and find that there is no meaningful relationship between ambition and third-party ratings of leader effectiveness. We also computed Bayes Factors, and find that the data are about 4 times as likely under the null hypothesis than under the alternative. 
-
-:::
+## Methods{visibility="uncounted"} 
 
 ## Testing a Null Hypothesis{auto-animate=true visibility="uncounted"}
 
@@ -2384,11 +2069,234 @@ Cohen, 1994; Dienes, 2014; Fisher, 1925; Jeffreys, 1998; Lakens, Scheel, & Isage
 [`r icon_style(icons::academicons("preregistered"), scale = 2.5, fill = "#035AA6")` `r icon_style(icons::academicons("open-materials"), scale = 2.5, fill = "#035AA6")` `r icon_style(icons::academicons("open-data"), scale = 2.5, fill = "#035AA6")` [**bit.ly/ambition-osf**]{style="font-size: 150%"}](https://bit.ly/ambition-osf)
 :::
 
+
+## Pilot Study{visibility="uncounted"}
+
+![](images/Shutterstock_2256363121.jpg){.absolute right="0" top="0" width="320"}
+
+- **Archival** data from the Higher Education Research Institute
+  - **T1**: 14,235,487 college **freshmen** at 1,840 institutions in the US
+  - **T2**: 527,159 college **seniors** at 722 institutions in the US
+- Assess the **time-lagged effect of ambition** on...
+  - Leader emergence (Proof of concept)
+  - Self-rated leader effectiveness
+- **T1 Ambition**<details>
+    <summary>
+    Items
+    </summary>
+    ::: {.nonincremental}
+  - Rate yourself on **drive to achieve** as compared with the average person your age  
+  (Highest 10%, Above Average, Average, Below Average, Lowest 10%)
+  - Please indicate the importance to you personally of **becoming a community leader** (Essential, Very Important, Somewhat Important, Not Important)
+  :::
+    </details>
+- **T2 Leader emergence**<details>
+    <summary>
+    Items
+    </summary>
+    ::: {.nonincremental}
+  - Since entering this college have you:  
+  Participated in **student government** (Yes/No)  
+  Participated in **leadership training** (Yes/No)
+  :::
+    </details>
+- **T2 Leader effectiveness**<details>
+    <summary>
+    Items
+    </summary>
+    ::: {.nonincremental}
+  - Rate yourself on **leadership ability** as compared with the average person your age  
+  (Highest 10%, Above Average, Average, Below Average, Lowest 10%)
+  :::
+    </details>
+
+
+::: {.footer}
+[`r icon_style(icons::academicons("preregistered"), scale = 2.5, fill = "#035AA6")` `r icon_style(icons::academicons("open-materials"), scale = 2.5, fill = "#035AA6")` `r icon_style(icons::academicons("open-data"), scale = 2.5, fill = "#035AA6")` [**bit.ly/ambition-osf**]{style="font-size: 150%"}](https://bit.ly/ambition-osf)
+:::
+
+## Proof of Concept: Leader Emergence{style='font-size: 23px' visibility="uncounted"}
+
+![](images/Shutterstock_1643439796.jpg){.absolute right="0" bottom="0" width="440"}
+
+<br></br>
+
+. . .
+
+Four logistic regression models assessing **time-lagged effect of ambition** on leader emergence
+
+. . .
+
+
+::: panel-tabset
+
+## **Drive to achieve**
+
+
+
+Effect of **drive to achieve** (T1) on log odds of participation in...
+
+- **Student government** (T2)  
+*b* = 0.32, 95% CI [0.30, 0.33], *z* = 40.26, *p* < .001
+- **Leadership training** (T2)  
+*b* = 0.33, 95% CI [0.32, 0.35], *z* = 50.78, *p* < .001
+- Comparing students with the **lowest** vs. **highest** drive to achieve... 
+  - **5%** vs. **17%** chance of participating in student government  
+  - **10%** vs. **30%** chance of participating in leadership training
+
+## **Community leader**
+
+
+Effect of rated **importance of becoming a community leader** (T1) on log odds of participation in...
+
+- **Student government** (T2)  
+*b* = 0.52, 95% CI [0.51, 0.53], *z* = 74.02, *p* < .001
+- **Leadership training** (T2)  
+*b* = 0.44, 95% CI [0.43, 0.45], *z* = 78.76, *p* < .001
+- Comparing students with the **lowest** vs. **highest** rated importance...
+  - **7%** vs. **26%** chance of participating in student government  
+  - **16%** vs. **42%** chance of participating in leadership training
+
+:::
+
+
+::: {.footer}
+[`r icon_style(icons::academicons("preregistered"), scale = 2.5, fill = "#035AA6")` `r icon_style(icons::academicons("open-materials"), scale = 2.5, fill = "#035AA6")` `r icon_style(icons::academicons("open-data"), scale = 2.5, fill = "#035AA6")` [**bit.ly/ambition-osf**]{style="font-size: 150%"}](https://bit.ly/ambition-osf)
+:::
+
+## Pilot Results: Leader Effectiveness{visibility="uncounted"}
+
+![](images/Shutterstock_2256363121.jpg){.absolute right="0" bottom="24" width="310"}
+
+. . .
+
+<br></br>
+
+
+Relationship between ambition and self-rated leadership effectiveness
+
+. . .
+
+::: panel-tabset
+
+## **Time-lagged**
+
+**T2 Self-rated leadership ability** is positively related to...
+
+- **T1 Drive to achieve**   
+*r* = 0.260, 95% CI [0.256, 0.263], *t*(256,047) = 136.08, *p* < .001
+- **T1 Importance of becoming a community leader**    
+*r* = 0.299, 95% CI [0.295, 0.302], *t*(218,428) = 146.20, *p* < .001 
+
+## **Cross-sectional**
+
+- Among **freshmen**, self-rated leadership ability is positively related to...
+  - **Drive to achieve**    
+  *r* = 0.397, 95% CI [0.396, 0.397], *t*(9,648,265) = 1,343.02, *p* < .001
+  - **Importance of becoming a community leader**   
+  *r* = 0.391, 95% CI [0.391, 0.392], *t*(6,105,415) = 1,050.87, *p* < .001
+- Among **seniors**, self-rated leadership ability is positively related to...
+  - **Drive to achieve**   
+  *r* = 0.420, 95% CI [0.418, 0.422], *t*(487,598) = 323.16, *p* < .001
+  - **Importance of becoming a community leader**    
+  *r* = 0.386, 95% CI [0.384, 0.389], *t*(440,863) = 277.99, *p* < .001
+
+
+:::
+
+
+
+::: {.footer}
+[`r icon_style(icons::academicons("preregistered"), scale = 2.5, fill = "#035AA6")` `r icon_style(icons::academicons("open-materials"), scale = 2.5, fill = "#035AA6")` `r icon_style(icons::academicons("open-data"), scale = 2.5, fill = "#035AA6")` [**bit.ly/ambition-osf**]{style="font-size: 150%"}](https://bit.ly/ambition-osf)
+:::
+
+## Study 1{visibility="uncounted"}
+
+## Plausible Polynomial Models{visibility="uncounted"}
+
+
+. . .
+
+**Main effect models**
+
+- Self-views only
+- Third-party views only
+- Both self-views and third-party views (additive)
+- Both self-views and third-party views (interactive)
+
+. . .
+
+**Congruence models**
+
+- Self-enhancement (discrepancy between self-views and third-party views)
+- Self-insight (agreement between self-views and third-party views)
+
+. . .
+
+**Curvilinear models**
+
+- Self-views
+- Third-party views
+
+
+::: aside
+
+Humberg, Dufner, Schonbrodt, Geukes, Hutteman, Küfner, van Zalk, Denissen, Nestler, & Back (2019)
+
+:::
+
+::: {.footer}
+[`r icon_style(icons::academicons("preregistered"), scale = 2.5, fill = "#035AA6")` `r icon_style(icons::academicons("open-materials"), scale = 2.5, fill = "#035AA6")` `r icon_style(icons::academicons("open-data"), scale = 2.5, fill = "#035AA6")` [**bit.ly/ambition-osf**]{style="font-size: 150%"}](https://bit.ly/ambition-osf)
+:::
+
+## Plausible Polynomial Models{visibility="uncounted"}
+
+**Main effect models**
+
+::: {.nonincremental}
+
+- Self-views only
+
+:::
+
+
+
+::: aside
+
+Humberg, Dufner, Schonbrodt, Geukes, Hutteman, Küfner, van Zalk, Denissen, Nestler, & Back (2019)
+
+:::
+
+::: {.footer}
+[`r icon_style(icons::academicons("preregistered"), scale = 2.5, fill = "#035AA6")` `r icon_style(icons::academicons("open-materials"), scale = 2.5, fill = "#035AA6")` `r icon_style(icons::academicons("open-data"), scale = 2.5, fill = "#035AA6")` [**bit.ly/ambition-osf**]{style="font-size: 150%"}](https://bit.ly/ambition-osf)
+:::
+
+## Plausible Polynomial Models{visibility="uncounted"}
+
+**Main effect models**
+
+::: {.nonincremental}
+
+- Self-views only: **Uncorroborated Positive Self-Views Model**
+
+:::
+
+
+::: aside
+
+Humberg, Dufner, Schonbrodt, Geukes, Hutteman, Küfner, van Zalk, Denissen, Nestler, & Back (2019)
+
+:::
+
+::: {.footer}
+[`r icon_style(icons::academicons("preregistered"), scale = 2.5, fill = "#035AA6")` `r icon_style(icons::academicons("open-materials"), scale = 2.5, fill = "#035AA6")` `r icon_style(icons::academicons("open-data"), scale = 2.5, fill = "#035AA6")` [**bit.ly/ambition-osf**]{style="font-size: 150%"}](https://bit.ly/ambition-osf)
+:::
+
 ## Results{visibility="uncounted"} 
 
 ::: panel-tabset
 
-## **Hypothesis 1**
+## **Self ratings**
 
 ![](images/360.jpeg){.absolute right="340" top="300" height="325" width="375"}
 
@@ -2397,7 +2305,7 @@ Cohen, 1994; Dienes, 2014; Fisher, 1925; Jeffreys, 1998; Lakens, Scheel, & Isage
 - Study 1A: *r* = 0.211, 95% CI [0.065, 0.347], *t*(175) = 2.85, *p* = .005
 - Study 1B: *r* = 0.174, 95% CI [0.061, 0.283], *t*(290) = 3.01, *p* = .003
 
-## **Hypothesis 2**
+## **Third-party ratings**
 
 <!-- ![](https://www.business2community.com/wp-content/uploads/2012/09/hires.jpg){.absolute right="0" top="350"} -->
 
@@ -2408,7 +2316,7 @@ Cohen, 1994; Dienes, 2014; Fisher, 1925; Jeffreys, 1998; Lakens, Scheel, & Isage
 - Third-party ratings of leader effectiveness are **statistically equivalent**, regardless of ambition
 <details>
     <summary>
-    Show details
+    More information
     </summary>
   ::: {.nonincremental}
   - 1A: Test against $\beta \pm .20$, *t*(172.57) = $-6.82$, *p* < .001
@@ -2418,7 +2326,7 @@ Cohen, 1994; Dienes, 2014; Fisher, 1925; Jeffreys, 1998; Lakens, Scheel, & Isage
 - **Bayes Factors** show **support for the null** hypothesis
 <details>
     <summary>
-    Show details
+    More information
     </summary>
   ::: {.nonincremental}
   - 1A: $BF_{01}$ = 6.29
@@ -2442,6 +2350,116 @@ To be able to claim support for the null hypothesis, we ran two additional tests
 
 
 :::
+
+## Study 2{visibility="uncounted"}
+
+- Expert-evaluated **leadership skills** competition
+<details>
+    <summary>
+    Items
+    </summary>
+  ::: {.nonincremental}
+  - This person has all the qualities that would make them an effective leader
+  - This person would succeed as a leader in my company
+  :::
+    </details>
+- *N* = 829 ratings of 181 MBA students
+
+. . .
+
+**Null** relationship between ambition and **other**-ratings of leadership effectiveness
+
+- *b* = $-0.06$, 95% CI [$-0.16$, $0.04$], *t*(175.09) = $-1.18$, *p* = .241 
+- Third-party ratings of leader effectiveness are **statistically equivalent**, regardless of ambition
+<details>
+    <summary>
+    More information
+    </summary>
+  ::: {.nonincremental}
+  - Significant test against $\beta =.20$, *t*(175.09) = $-5.04$, *p* < .001
+  - Significant test against $\beta = -.20$, *t*(175.09) = $2.69$, *p* = .004
+  :::
+    </details>
+- **Bayes Factors** show **support for the null** hypothesis
+<details>
+    <summary>
+    More information
+    </summary>
+  ::: {.nonincremental}
+  - $BF_{01}$ = 3.64
+  - The data are over 3 times as likely under a null model
+  :::
+    </details>
+
+::: {.footer}
+[`r icon_style(icons::academicons("open-materials"), scale = 2.5, fill = "#035AA6")` `r icon_style(icons::academicons("open-data"), scale = 2.5, fill = "#035AA6")` [**bit.ly/ambition-osf**]{style="font-size: 150%"}](https://bit.ly/ambition-osf)
+:::
+
+::: {.notes}
+In Study 2, we relied on a leadership challenge run during the Stanford MBA program. During the challenge, expert judges, who were current executives across a range of industries, rated each individual competitor on their leadership effectiveness. 
+
+In support of Hypothesis 2, we find a nonsignificant relationship between ambition and expert ratings of leadership effectiveness. We again run an equivalence test and find that there is no meaningful relationship between ambition and third-party ratings of leader effectiveness. We also computed Bayes Factors, and find that the data are over 3 times as likely under the null hypothesis than under the alternative. 
+
+:::
+
+## Study 3{visibility="uncounted"} 
+
+- Group decision-making task with **randomly assigned** leaders vs. followers
+- Nationally **representative sample**: *N* = 305 ratings of 101 group leaders
+<details>
+    <summary>
+    Items
+    </summary>
+  ::: {.nonincremental}
+  - I would want this person to be my boss or supervisor at work
+  - This person has clear leadership potential
+  - Overall, this person was NOT an effective leader (R)
+  - If I had the chance, I would definitely want to have this person as my leader again
+  - Looking ahead, I expect this person will experience great success as a leader
+  :::
+    </details>
+
+. . .
+
+**Null** relationship between ambition and **other**-ratings of leadership effectiveness
+
+- *b* = $-0.06$, 95% CI [$-0.18$, $0.06$], *t*(98.99) = $-1.02$, *p* = .312
+- Third-party ratings of leader effectiveness are **statistically equivalent**, regardless of ambition
+<details>
+    <summary>
+    More information
+    </summary>
+  ::: {.nonincremental}
+  - Significant test against $\beta = .20$, *t*(98.99) = $-4.36$, *p* < .001
+  - Significant test against $\beta =-.20$, *t*(98.99) = $2.33$, *p* = .011
+  :::
+    </details>
+- **Bayes Factors** show **support for the null** hypothesis
+<details>
+    <summary>
+    More information
+    </summary>
+  ::: {.nonincremental}
+  - $BF_{01}$ = 3.98
+  - The data are about 4 times as likely under a null model
+  :::
+    </details>
+
+::: {.footer}
+[`r icon_style(icons::academicons("preregistered"), scale = 2.5, fill = "#035AA6")` `r icon_style(icons::academicons("open-materials"), scale = 2.5, fill = "#035AA6")` `r icon_style(icons::academicons("open-data"), scale = 2.5, fill = "#035AA6")` [**bit.ly/ambition-osf**]{style="font-size: 150%"}](https://bit.ly/ambition-osf)
+:::
+
+::: {.notes}
+In Study 3, we recruited a nationally representative sample to participate in an hour-long leadership simulation that focused on a group decision-making task. Participants were randomly assigned to act as the leader or one of the three followers. 
+
+In support of Hypothesis 2, we find a nonsignificant relationship between ambition and follower-rated effectiveness. We again run an equivalence test and find that there is no meaningful relationship between ambition and third-party ratings of leader effectiveness. We also computed Bayes Factors, and find that the data are about 4 times as likely under the null hypothesis than under the alternative. 
+
+:::
+
+
+
+
+## Uncertainty{.center style='font-size: 70px; text-align: center;' visibility="uncounted"}
 
 ## Meta-Analysis{visibility="uncounted"}
 
