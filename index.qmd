@@ -14,7 +14,7 @@ format:
     code-copy: true
     slide-number: true
     preview-links: true
-    self-contained: true
+    self-contained: false #change to true after edits
     controls: true
     overview: true
     mouse-wheel: false
@@ -190,7 +190,7 @@ Why the **wrong** people make it to the **top**, and the **right** people do **n
 
 
 ::: aside
-<!-- Alzahawi, Reit, & Flynn, *under review*; Alzahawi & Flynn, *under review*; Alzahawi & Flynn, *in prep* -->
+Alzahawi, Reit, & Flynn, under review at *Journal of Applied Psychology*; Alzahawi & Flynn, *in prep*; Alzahawi & Flynn, under review at *Leadership Quarterly*
 :::
 
 
@@ -296,7 +296,7 @@ Albert, Kübler, & Silva-Goncalves, 2022; Alicke & Govorun, 2005; Anderson, Hild
 
 <br></br>
 
-**Uncorroborated Positive Self-Views Hypothesis**  
+**Positive Uncorroborated Self-views HYpothesis (PUSHY)**  
 
 - Ambition is related to **positive self-views**...
 - that remain **uncorroborated** by relevant third-party actors
@@ -463,19 +463,19 @@ Higher Education Research Institute, UCLA
 
 10 Leadership competencies (5 items each, $\alpha$ = 0.96)
 
+
 ::: {.nonincremental}
 
-- Managing self
+- Managing self 
 - Decision making
 - Handling conflict
-- Motivating others
+- Motivating others 
 - Growth orientation
 - Accountability for results 
-- Managing collaborative work
-- Coaching and developing people
-- Exerting influence and persuasion
-- Presenting and communicating ideas
-
+- Managing collaborative work 
+- Coaching and developing people 
+- Exerting influence and persuasion 
+- Presenting and communicating ideas 
 
 :::
 
@@ -538,9 +538,9 @@ Stanford GSB Leadership Evaluation and Action Planning (LEAP) 360
 
 . . .
 
-We conclude support for the **Uncorroborated Positive Self-Views Hypothesis** if...
+We conclude support for the **Positive Uncorroborated Self-Views Hypothesis** if...
 
-- RSA identifies the **Uncorroborated Positive Self-Views Model** as the best fit with the data
+- RSA identifies the **PUSHY Model** as the best fit with the data
 
 <!-- **Decomposition** of the found, simultaneous relationship -->
 
@@ -609,7 +609,7 @@ Humberg, Dufner, Schonbrodt, Geukes, Hutteman, Küfner, van Zalk, Denissen, Nest
 <!-- ::: -->
 
 
-## Uncorroborated Positive Self-Views Model{style='font-size: 20px'}
+## PUSHY Model
 
 
 Ambition is fully **calibrated to self-views** and **not to third-party views** of leader effectiveness
@@ -621,7 +621,7 @@ Ambition is fully **calibrated to self-views** and **not to third-party views** 
 
 . . .
 
-![](images/model.png){.absolute right="350" bottom="40" height="460"}
+![](images/model.png){.absolute right="350" bottom="40" height="430"}
 
 
 
@@ -649,7 +649,7 @@ Does ambition account ***only*** for self-views and ***not*** for third-party pe
 . . .
 
 
-The **Uncorroborated Positive Self-Views model** provides the best fit with the data
+The **PUSHY model** provides the best fit with the data
 
 - AICc weight = 91%
 
@@ -706,7 +706,7 @@ Does motivation to lead account ***only*** for self-views and ***not*** for thir
 . . .
 
 
-The **Uncorroborated Positive Self-Views model** provides the best fit with the data
+The **PUSHY model** provides the best fit with the data
 
 - AICc weight = 94%
 
@@ -761,7 +761,7 @@ Does drive to achieve account ***only*** for self-views and ***not*** for third-
 . . .
 
 
-The **Uncorroborated Positive Self-Views model** provides the best fit with the data
+The **PUSHY model** provides the best fit with the data
 
 - AICc weight = 97%
 
@@ -919,7 +919,7 @@ Why the **wrong** people make it to the **top**, and the **right** people do **n
 
 
 ::: aside
-<!-- Alzahawi, Reit, & Flynn, *under review*; Alzahawi & Flynn, *under review*; Alzahawi & Flynn, *in prep* -->
+Alzahawi, Reit, & Flynn, under review at *Journal of Applied Psychology*; Alzahawi & Flynn, *in prep*; Alzahawi & Flynn, under review at *Leadership Quarterly*
 :::
 
 
@@ -1042,7 +1042,7 @@ Why the **wrong** people make it to the **top**, and the **right** people do **n
 
 
 ::: aside
-<!-- Alzahawi, Reit, & Flynn, *under review*; Alzahawi & Flynn, *under review*; Alzahawi & Flynn, *in prep* -->
+Alzahawi, Reit, & Flynn, under review at *Journal of Applied Psychology*; Alzahawi & Flynn, *in prep*; Alzahawi & Flynn, under review at *Leadership Quarterly*
 :::
 
 
@@ -2212,6 +2212,172 @@ Relationship between ambition and self-rated leadership effectiveness
 
 ## Study 1{visibility="uncounted"}
 
+## Managing Self{style='font-size: 23px;' visibility="uncounted"} 
+
+::: {.nonincremental}
+
+<br></br>
+
+
+- Lacks patience (R)
+- Maintains a positive attitude
+- Recovers quickly from setbacks
+- Expresses emotions appropriately
+- Expresses optimism when faced with difficult challenges
+
+:::
+
+![](images/leadership.jpg "Leadership"){.absolute right="0" bottom="0" width="500"}
+
+## Decision Making{style='font-size: 23px;' visibility="uncounted"} 
+
+::: {.nonincremental}
+
+<br></br>
+
+- Makes rash decisions (R)
+- Maintains consistent principles in making decisions
+- Focuses on what is most important in complex situations
+- Prioritizes the right decision over the most popular choice
+- Considers all viable options when making important decisions
+
+:::
+
+![](images/leadership.jpg "Leadership"){.absolute right="0" bottom="0" width="500"}
+
+## Growth Orientation{style='font-size: 23px;' visibility="uncounted"} 
+
+::: {.nonincremental}
+
+<br></br>
+
+
+- Pursues greater responsibility
+- Shies away from challenging roles or projects (R)
+- Asks for opportunities to further career development
+- Solicits developmental feedback to improve performance
+- Demonstrates a stronger work ethic than his or her peers
+
+:::
+
+![](images/leadership.jpg "Leadership"){.absolute right="0" bottom="0" width="500"}
+
+## Accountability for Results{style='font-size: 23px;' visibility="uncounted"} 
+
+<br></br>
+
+::: {.nonincremental}
+
+
+- Exceeds expected results
+- Takes projects to completion
+- Uses his/her time efficiently
+- Accepts responsibility for mistakes
+- Fails to push for optimal performance (R)
+
+:::
+
+![](images/leadership.jpg "Leadership"){.absolute right="0" bottom="0" width="500"}
+
+## Managing Collaborative Work{style='font-size: 23px;' visibility="uncounted"} 
+
+<br></br>
+
+::: {.nonincremental}
+
+- Follows up on incomplete tasks
+- Gets buy-in for processes that involve multiple people
+- Establishes clear lines of accountability for important deliverables or goals
+- Fails to delegate tasks or fully leverage the capacity of other team members (R)
+- Keeps all relevant stakeholders well informed about project status or performance
+
+:::
+
+![](images/leadership.jpg "Leadership"){.absolute right="0" bottom="0" width="500"}
+
+## Motivating Others{style='font-size: 23px;' visibility="uncounted"} 
+
+<br></br>
+
+::: {.nonincremental}
+
+- Energizes and inspires others
+- Recognizes others's contributions
+- Motivates others to put forth greater effort
+- Contributes to a strong sense of team identity
+- Understands what motivates each person they work with
+
+:::
+
+![](images/leadership.jpg "Leadership"){.absolute right="0" bottom="0" width="500"}
+
+## Coaching and Developing People{style='font-size: 23px;' visibility="uncounted"} 
+
+<br></br>
+
+::: {.nonincremental}
+
+- Actively invests time and energy to coach others
+- Provides development opportunities for promising younger leaders
+- Asks thoughtful questions that help others refine their own thinking
+- Provides constructive and actionable feedback to those he/she works with
+- Debriefs after reaching (or failing to meet) significant milestones, in order to foster improvement
+
+:::
+
+![](images/leadership.jpg "Leadership"){.absolute right="0" bottom="0" width="500"}
+
+## Exerting Influence and Persuasion{style='font-size: 23px;' visibility="uncounted"} 
+
+<br></br>
+
+::: {.nonincremental}
+
+- Fails to build support for his/her initiatives (R)
+- Negotiates skillfully while maintaining good relationships 
+- Influences the outcomes of meetings in which he/she participates
+- Builds a strong network of personal relationships within the organization
+- Effectively navigates political landscape to influence important decisions
+
+:::
+
+![](images/leadership.jpg "Leadership"){.absolute right="0" bottom="0" width="500"}
+
+
+## Presenting and Communicating Ideas{style='font-size: 23px;' visibility="uncounted"} 
+
+<br></br>
+
+::: {.nonincremental}
+
+- Shows body language that can be problematic (R)
+- Reinforces message with specific take-aways or action items
+- Demonstrates exceptional command of material when presenting
+- Presents complex material in a way that is clear and engaging
+- Gets easily rattled when his/her presentation or agenda gets off track (R)
+
+:::
+
+![](images/leadership.jpg "Leadership"){.absolute right="0" bottom="0" width="500"}
+
+
+## Handling Conflict{style='font-size: 23px;' visibility="uncounted"} 
+
+<br></br>
+
+::: {.nonincremental}
+
+- Maintains an even temperament in contentious situations
+- Tries to identify outcomes that satisfy all sides (win-win)
+- Allows conflict to become personal, rather than issue-based (R)
+- Reduces or avoids unproductive conflicts through effective diplomacy
+- Has difficulty working with colleagues after losing an argument with them (R)
+
+:::
+
+![](images/leadership.jpg "Leadership"){.absolute right="0" bottom="0" width="500"}
+
+
 ## Plausible Polynomial Models{visibility="uncounted"}
 
 
@@ -2277,7 +2443,7 @@ Humberg, Dufner, Schonbrodt, Geukes, Hutteman, Küfner, van Zalk, Denissen, Nest
 
 ::: {.nonincremental}
 
-- Self-views only: **Uncorroborated Positive Self-Views Model**
+- Self-views only: **Positive Uncorroborated Self-Views Model**
 
 :::
 
@@ -2291,6 +2457,8 @@ Humberg, Dufner, Schonbrodt, Geukes, Hutteman, Küfner, van Zalk, Denissen, Nest
 ::: {.footer}
 [`r icon_style(icons::academicons("preregistered"), scale = 2.5, fill = "#035AA6")` `r icon_style(icons::academicons("open-materials"), scale = 2.5, fill = "#035AA6")` `r icon_style(icons::academicons("open-data"), scale = 2.5, fill = "#035AA6")` [**bit.ly/ambition-osf**]{style="font-size: 150%"}](https://bit.ly/ambition-osf)
 :::
+
+
 
 ## Results{visibility="uncounted"} 
 
