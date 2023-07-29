@@ -57,12 +57,14 @@ library(icons)
 Anderson & Brown, 2010; Fiedler, 1996; Hogan & Kaiser, 2005
 :::
 
-## Adverse Leader Selection{background-image="images/Shutterstock_608887400 copy 2.jpg" background-size="600px" background-position="90% 50%"}
+## Adverse Leader Selection{background-image="images/Shutterstock_608887400 copy 2.jpg" background-size="600px" background-position="95% 65%"}
 
 . . .
 
+Gap between (potential) leadership **effectiveness** and **emergence**
 
-*The **wrong** people make it to the **top**; the **right** people do **not***
+- The **wrong** people are **more** likely to make it to the top
+- The **right** people are **less** likely to make it to the top
 
 <br></br>
 
@@ -118,7 +120,7 @@ DeVries & Kaiser, 2003; Dixon, 1976; Hogan & Kaiser, 2005; Hogan, 2007; Hogan, H
 
 . . . 
 
-Why the **wrong** people make it to the **top**, and the **right** people do **not**... 
+Why are the **wrong** (***right***) people **more** (***less***) likely to make it to the top?
 
 . . . 
 
@@ -160,7 +162,7 @@ Why the **wrong** people make it to the **top**, and the **right** people do **n
 
 
 
-Why the **wrong** people make it to the **top**, and the **right** people do **not**... 
+Why are the **wrong** (***right***) people **more** (***less***) likely to make it to the top? 
 
 
 
@@ -885,7 +887,7 @@ Rather than allowing ambitious individuals to dominate candidate pools for leade
 
 
 
-Why the **wrong** people make it to the **top**, and the **right** people do **not**... 
+Why are the **wrong** (***right***) people **more** (***less***) likely to make it to the top?
 
 
 
@@ -1009,7 +1011,7 @@ Erkal, Gangadharan, & Xiao, 2022; He, Kang, & Lacetera, 2021; Chan & Drasgow, 20
 
 
 
-Why the **wrong** people make it to the **top**, and the **right** people do **not**... 
+Why are the **wrong** (***right***) people **more** (***less***) likely to make it to the top?
 
 
 
