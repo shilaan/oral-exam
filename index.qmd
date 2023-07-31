@@ -2518,8 +2518,9 @@ Relationship between ambition and self-rated leadership effectiveness
 
 ::: aside
 
-Humberg, Dufner, Schonbrodt, Geukes, Hutteman, Küfner, van Zalk, Denissen, Nestler, & Back (2019)
+Humberg, Dufner, Schonbrodt, Geukes, Hutteman, Küfner, van Zalk, Denissen, Nestler, & Back (2019). 
 
+NB: Self-enhancement predicts *low* ambition for someone with high self-ratings and high(er) third-party ratings and *high* for someone with low self-ratings and even lower third-party ratings: i.e., ambition causes a funnel-shaped gap between self-ratings and third-party ratings.
 :::
 
 ::: {.footer}
