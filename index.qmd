@@ -14,7 +14,7 @@ format:
     code-copy: true
     slide-number: true
     preview-links: true
-    self-contained: false #change to true after edits
+    self-contained: true #change to true after edits
     controls: true
     overview: true
     mouse-wheel: false
