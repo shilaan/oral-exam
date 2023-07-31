@@ -2323,6 +2323,13 @@ Relationship between ambition and self-rated leadership effectiveness
 
 ## Study 1{visibility="uncounted"}
 
+::: {.footer}
+[`r icon_style(icons::academicons("preregistered"), scale = 2.5, fill = "#035AA6")` `r icon_style(icons::academicons("open-materials"), scale = 2.5, fill = "#035AA6")` `r icon_style(icons::academicons("open-data"), scale = 2.5, fill = "#035AA6")` [**bit.ly/ambition-osf**]{style="font-size: 150%"}](https://bit.ly/ambition-osf)
+:::
+
+
+
+
 ## Managing Self{style='font-size: 23px;' visibility="uncounted"} 
 
 ::: {.nonincremental}
@@ -2340,6 +2347,11 @@ Relationship between ambition and self-rated leadership effectiveness
 
 ![](images/leadership.jpg "Leadership"){.absolute right="0" bottom="0" width="500"}
 
+::: {.footer}
+[`r icon_style(icons::academicons("preregistered"), scale = 2.5, fill = "#035AA6")` `r icon_style(icons::academicons("open-materials"), scale = 2.5, fill = "#035AA6")` `r icon_style(icons::academicons("open-data"), scale = 2.5, fill = "#035AA6")` [**bit.ly/ambition-osf**]{style="font-size: 150%"}](https://bit.ly/ambition-osf)
+:::
+
+
 ## Decision Making{style='font-size: 23px;' visibility="uncounted"} 
 
 ::: {.nonincremental}
@@ -2355,6 +2367,11 @@ Relationship between ambition and self-rated leadership effectiveness
 :::
 
 ![](images/leadership.jpg "Leadership"){.absolute right="0" bottom="0" width="500"}
+
+::: {.footer}
+[`r icon_style(icons::academicons("preregistered"), scale = 2.5, fill = "#035AA6")` `r icon_style(icons::academicons("open-materials"), scale = 2.5, fill = "#035AA6")` `r icon_style(icons::academicons("open-data"), scale = 2.5, fill = "#035AA6")` [**bit.ly/ambition-osf**]{style="font-size: 150%"}](https://bit.ly/ambition-osf)
+:::
+
 
 ## Growth Orientation{style='font-size: 23px;' visibility="uncounted"} 
 
@@ -2373,6 +2390,11 @@ Relationship between ambition and self-rated leadership effectiveness
 
 ![](images/leadership.jpg "Leadership"){.absolute right="0" bottom="0" width="500"}
 
+::: {.footer}
+[`r icon_style(icons::academicons("preregistered"), scale = 2.5, fill = "#035AA6")` `r icon_style(icons::academicons("open-materials"), scale = 2.5, fill = "#035AA6")` `r icon_style(icons::academicons("open-data"), scale = 2.5, fill = "#035AA6")` [**bit.ly/ambition-osf**]{style="font-size: 150%"}](https://bit.ly/ambition-osf)
+:::
+
+
 ## Accountability for Results{style='font-size: 23px;' visibility="uncounted"} 
 
 <br></br>
@@ -2390,6 +2412,11 @@ Relationship between ambition and self-rated leadership effectiveness
 
 ![](images/leadership.jpg "Leadership"){.absolute right="0" bottom="0" width="500"}
 
+::: {.footer}
+[`r icon_style(icons::academicons("preregistered"), scale = 2.5, fill = "#035AA6")` `r icon_style(icons::academicons("open-materials"), scale = 2.5, fill = "#035AA6")` `r icon_style(icons::academicons("open-data"), scale = 2.5, fill = "#035AA6")` [**bit.ly/ambition-osf**]{style="font-size: 150%"}](https://bit.ly/ambition-osf)
+:::
+
+
 ## Managing Collaborative Work{style='font-size: 23px;' visibility="uncounted"} 
 
 <br></br>
@@ -2406,6 +2433,11 @@ Relationship between ambition and self-rated leadership effectiveness
 
 ![](images/leadership.jpg "Leadership"){.absolute right="0" bottom="0" width="500"}
 
+::: {.footer}
+[`r icon_style(icons::academicons("preregistered"), scale = 2.5, fill = "#035AA6")` `r icon_style(icons::academicons("open-materials"), scale = 2.5, fill = "#035AA6")` `r icon_style(icons::academicons("open-data"), scale = 2.5, fill = "#035AA6")` [**bit.ly/ambition-osf**]{style="font-size: 150%"}](https://bit.ly/ambition-osf)
+:::
+
+ 
 ## Motivating Others{style='font-size: 23px;' visibility="uncounted"} 
 
 <br></br>
@@ -2422,6 +2454,11 @@ Relationship between ambition and self-rated leadership effectiveness
 
 ![](images/leadership.jpg "Leadership"){.absolute right="0" bottom="0" width="500"}
 
+::: {.footer}
+[`r icon_style(icons::academicons("preregistered"), scale = 2.5, fill = "#035AA6")` `r icon_style(icons::academicons("open-materials"), scale = 2.5, fill = "#035AA6")` `r icon_style(icons::academicons("open-data"), scale = 2.5, fill = "#035AA6")` [**bit.ly/ambition-osf**]{style="font-size: 150%"}](https://bit.ly/ambition-osf)
+:::
+
+
 ## Coaching and Developing People{style='font-size: 23px;' visibility="uncounted"} 
 
 <br></br>
@@ -2437,6 +2474,11 @@ Relationship between ambition and self-rated leadership effectiveness
 :::
 
 ![](images/leadership.jpg "Leadership"){.absolute right="0" bottom="0" width="500"}
+
+
+::: {.footer}
+[`r icon_style(icons::academicons("preregistered"), scale = 2.5, fill = "#035AA6")` `r icon_style(icons::academicons("open-materials"), scale = 2.5, fill = "#035AA6")` `r icon_style(icons::academicons("open-data"), scale = 2.5, fill = "#035AA6")` [**bit.ly/ambition-osf**]{style="font-size: 150%"}](https://bit.ly/ambition-osf)
+:::
 
 ## Exerting Influence and Persuasion{style='font-size: 23px;' visibility="uncounted"} 
 
@@ -2455,6 +2497,11 @@ Relationship between ambition and self-rated leadership effectiveness
 ![](images/leadership.jpg "Leadership"){.absolute right="0" bottom="0" width="500"}
 
 
+::: {.footer}
+[`r icon_style(icons::academicons("preregistered"), scale = 2.5, fill = "#035AA6")` `r icon_style(icons::academicons("open-materials"), scale = 2.5, fill = "#035AA6")` `r icon_style(icons::academicons("open-data"), scale = 2.5, fill = "#035AA6")` [**bit.ly/ambition-osf**]{style="font-size: 150%"}](https://bit.ly/ambition-osf)
+:::
+
+
 ## Presenting and Communicating Ideas{style='font-size: 23px;' visibility="uncounted"} 
 
 <br></br>
@@ -2470,6 +2517,10 @@ Relationship between ambition and self-rated leadership effectiveness
 :::
 
 ![](images/leadership.jpg "Leadership"){.absolute right="0" bottom="0" width="500"}
+
+::: {.footer}
+[`r icon_style(icons::academicons("preregistered"), scale = 2.5, fill = "#035AA6")` `r icon_style(icons::academicons("open-materials"), scale = 2.5, fill = "#035AA6")` `r icon_style(icons::academicons("open-data"), scale = 2.5, fill = "#035AA6")` [**bit.ly/ambition-osf**]{style="font-size: 150%"}](https://bit.ly/ambition-osf)
+:::
 
 
 ## Handling Conflict{style='font-size: 23px;' visibility="uncounted"} 
@@ -2488,6 +2539,9 @@ Relationship between ambition and self-rated leadership effectiveness
 
 ![](images/leadership.jpg "Leadership"){.absolute right="0" bottom="0" width="500"}
 
+::: {.footer}
+[`r icon_style(icons::academicons("preregistered"), scale = 2.5, fill = "#035AA6")` `r icon_style(icons::academicons("open-materials"), scale = 2.5, fill = "#035AA6")` `r icon_style(icons::academicons("open-data"), scale = 2.5, fill = "#035AA6")` [**bit.ly/ambition-osf**]{style="font-size: 150%"}](https://bit.ly/ambition-osf)
+:::
 
 ## Plausible Polynomial Models{visibility="uncounted"}
 
@@ -2520,7 +2574,7 @@ Relationship between ambition and self-rated leadership effectiveness
 
 Humberg, Dufner, Schonbrodt, Geukes, Hutteman, Küfner, van Zalk, Denissen, Nestler, & Back (2019). 
 
-NB: Self-enhancement predicts *low* ambition for someone with high self-ratings and high(er) third-party ratings and *high* for someone with low self-ratings and even lower third-party ratings: i.e., ambition causes a funnel-shaped gap between self-ratings and third-party ratings.
+NB: Self-enhancement predicts *low* ambition for someone with high self-ratings and high(er) third-party ratings and *high* ambition for someone with low self-ratings and even lower third-party ratings: i.e., ambition causes a funnel-shaped gap between self-ratings and third-party ratings.
 :::
 
 ::: {.footer}
@@ -2631,13 +2685,36 @@ To be able to claim support for the null hypothesis, we ran two additional tests
 
 :::
 
-## Bayes Factors{visibility="uncounted" background-image="images/figure2.jpg" background-size="1850px"} 
+## Bayes Factor Robustness Plots{visibility="uncounted" background-image="images/figure2.jpg" background-size="1850px" background-position="50% 70%"} 
 
-<br></br>
 
-```{r}
-#knitr::include_graphics("images/figure2.jpg")
-```
+::: {.footer}
+[`r icon_style(icons::academicons("preregistered"), scale = 2.5, fill = "#035AA6")` `r icon_style(icons::academicons("open-materials"), scale = 2.5, fill = "#035AA6")` `r icon_style(icons::academicons("open-data"), scale = 2.5, fill = "#035AA6")` [**bit.ly/ambition-osf**]{style="font-size: 150%"}](https://bit.ly/ambition-osf)
+:::
+
+## Bayes Factor Table{visibility="uncounted"}
+
+<br>
+
+
+|Measure              |Rater               |   Medium   |   Wide    |   Ultrawide   |
+|:--------------------|:-------------------|:----------:|:---------:|:-------------:|
+|Ambition             |All Third Parties   |   16.37    |   23.11   |     32.65     |
+|Ambition             |Managers            |   12.54    |   17.71   |     24.95     |
+|Ambition             |Peers               |   14.99    |   21.22   |     29.90     |
+|Ambition             |Direct Reports      |    1.91    |   2.67    |     3.76      |
+|Motivation to Lead   |All Third Parties   |   17.08    |   24.07   |     33.99     |
+|Motivation to Lead   |Managers            |    9.51    |   13.36   |     18.83     |
+|Motivation to Lead   |Peers               |   10.29    |   14.47   |     20.40     |
+|Motivation to Lead   |Direct Reports      |    7.77    |   10.88   |     15.31     |
+|Drive to Achieve     |All Third Parties   |    4.81    |   6.77    |     9.54      |
+|Drive to Achieve     |Managers            |    5.16    |   7.23    |     10.17     |
+|Drive to Achieve     |Peers               |   15.55    |   21.94   |     30.99     |
+|Drive to Achieve     |Direct Reports      |    6.05    |   8.48    |     11.95     |
+
+::: {.footer}
+[`r icon_style(icons::academicons("preregistered"), scale = 2.5, fill = "#035AA6")` `r icon_style(icons::academicons("open-materials"), scale = 2.5, fill = "#035AA6")` `r icon_style(icons::academicons("open-data"), scale = 2.5, fill = "#035AA6")` [**bit.ly/ambition-osf**]{style="font-size: 150%"}](https://bit.ly/ambition-osf)
+:::
 
 ## Study 2{visibility="uncounted"}
 
@@ -2678,6 +2755,12 @@ To be able to claim support for the null hypothesis, we ran two additional tests
   - The data are over 3 times as likely under a null model
   :::
     </details>
+
+::: {.footer}
+[`r icon_style(icons::academicons("open-materials"), scale = 2.5, fill = "#035AA6")` `r icon_style(icons::academicons("open-data"), scale = 2.5, fill = "#035AA6")` [**bit.ly/ambition-osf**]{style="font-size: 150%"}](https://bit.ly/ambition-osf)
+:::
+
+## Study 2{visibility="uncounted" background-image="images/2-figure.jpg" background-size="1000px" background-position="50% 70%"}
 
 ::: {.footer}
 [`r icon_style(icons::academicons("open-materials"), scale = 2.5, fill = "#035AA6")` `r icon_style(icons::academicons("open-data"), scale = 2.5, fill = "#035AA6")` [**bit.ly/ambition-osf**]{style="font-size: 150%"}](https://bit.ly/ambition-osf)
@@ -2744,6 +2827,11 @@ In support of Hypothesis 2, we find a nonsignificant relationship between ambiti
 
 :::
 
+## Study 3{visibility="uncounted" background-image="images/3-figure.jpg" background-size="1000px" background-position="50% 70%"}
+
+::: {.footer}
+[`r icon_style(icons::academicons("preregistered"), scale = 2.5, fill = "#035AA6")` `r icon_style(icons::academicons("open-materials"), scale = 2.5, fill = "#035AA6")` `r icon_style(icons::academicons("open-data"), scale = 2.5, fill = "#035AA6")` [**bit.ly/ambition-osf**]{style="font-size: 150%"}](https://bit.ly/ambition-osf)
+:::
 
 ## Opt-In{.center style='font-size: 70px; text-align: center;' visibility="uncounted"}
 
