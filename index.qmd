@@ -90,7 +90,7 @@ Anderson & Brown, 2010; Fiedler, 1996; Hogan, Curphy, & Hogan, 1994; Lanaj & Hol
 
 
 
-## Costs to Leadership Failure 
+## Costs to Adverse Leader Selection 
 
 ![](images/failure copy.png){.absolute right="0" bottom="170"}
 
@@ -101,7 +101,7 @@ Anderson & Brown, 2010; Fiedler, 1996; Hogan, Curphy, & Hogan, 1994; Lanaj & Hol
 - **Psychological** costs
   - 75% of working adults: Boss is **most stressful aspect** of the job
   - 70% of US workers: Would pay to have their boss **fired**
-  - Bosses are often the primary reasons employees **quit**
+  - Bosses are often the primary reason employees **quit**
 - **Societal** costs
   - Leadership scandals & ethical lapses
   - Military disasters
@@ -971,32 +971,6 @@ Erkal, Gangadharan, & Xiao, 2022; He, Kang, & Lacetera, 2021; Chan & Drasgow, 20
   - Foster **diversity** in upper-level positions 
   - Promote workplace **advancement** for individuals  
   with strong leadership **potential**
-  
-  
-## Self-Selection: Hypotheses
-
-![](images/opt.jpeg){.absolute bottom="0" right="0" height="440"}
-
-
-. . .
-
-<br></br>
-
-*H1*: **Opt-in** (vs. **opt-out**) mechanisms **decrease** the aggregate **effectiveness** of candidate pools for leadership roles, through...
-
-<br></br>
-
-. . .
-
-*H1a*: **Greater** presence of effectiveness-**inhibiting** traits
-
-. . .
-
-*H1b*: **Greater** presence of effectiveness-**irrelevant** traits
-
-. . .
-
-*H1c*: **Lesser** presence of effectiveness-**inducing** traits
 
 
 ## Adverse Leader Selection
@@ -1727,6 +1701,141 @@ Manian & Sheth, 2021
 :::
 
 ## Anticipated Results
+
+<br></br>
+
+```{r}
+knitr::include_graphics("images/anticipated.jpg")
+```
+
+
+```{r, eval = FALSE, include = FALSE}
+library(tidyverse)
+library(gridExtra)
+get_eff <- function(probs) {
+  replicate(n = 133, mean(sample(1:7, size = 3, replace = TRUE, prob = probs)))
+}
+set.seed(1)
+h1 <- tibble(
+  Uncertainty = rep(-4:4, each = 133),
+  Effectiveness = c(
+    #if uncertainty = -4
+    get_eff(c(.025, .050, .075, .1, .2, .25, .3)),
+    #if uncertainty = -3
+    get_eff(c(.025, .050, .075, .1, .2, .3, .25)),
+    #if uncertainty = -2
+    get_eff(c(.025, .050, .075, .15, .3, .2, .2)),
+    #if uncertainty = -1
+    get_eff(c(.025, .050, .15, .3, .25, .15, .075)),
+    #if uncertainty = 0
+    get_eff(c(.025, .050, .3, .15, .25, .15, .075)),
+     #if uncertainty = 1
+    get_eff(rev(c(.025, .050, .15, .3, .25, .15, .075))),
+     #if uncertainty = 2
+    get_eff(rev(c(.025, .050, .075, .15, .3, .2, .2))),
+    # if uncertainty = 3
+    get_eff(rev(c(.025, .050, .075, .1, .2, .3, .25))),
+    #if uncertainty = 4
+    get_eff(c(0.3, 0.25, 0.2, 0.1, .075, .05, .025))
+  ),
+  H = 1
+)
+
+set.seed(1)
+h2 <- tibble(
+  Uncertainty = rep(-4:4, each = 133),
+  Effectiveness = c(
+    #if uncertainty = -4
+    get_eff(rev(c(.025, .050, .075, .1, .2, .25, .3))),
+    #if uncertainty = -3
+    get_eff(rev(c(.025, .050, .075, .1, .2, .3, .25))),
+    #if uncertainty = -2
+    get_eff(rev(c(.025, .050, .075, .15, .3, .2, .2))),
+    #if uncertainty = -1
+    get_eff(rev(c(.025, .050, .15, .3, .25, .15, .075))),
+    #if uncertainty = 0
+    get_eff(c(.025, .050, .3, .15, .25, .15, .075)),
+     #if uncertainty = 1
+    get_eff(c(.025, .050, .15, .3, .25, .15, .075)),
+     #if uncertainty = 2
+    get_eff(c(.025, .050, .075, .15, .3, .2, .2)),
+    # if uncertainty = 3
+    get_eff(c(.025, .050, .075, .1, .2, .3, .25)),
+    #if uncertainty = 4
+    get_eff(rev(c(0.3, 0.25, 0.2, 0.1, .075, .05, .025)))
+  ), 
+  H = 2
+)
+
+set.seed(1)
+h3 <- tibble(
+  Uncertainty = rep(-4:4, each = 133),
+  Effectiveness = c(
+    #if uncertainty = -4
+    get_eff(rev(c(.025, .050, .075, .1, .2, .25, .3))),
+    #if uncertainty = -3
+    get_eff(rev(c(.025, .050, .075, .1, .2, .3, .25))),
+    #if uncertainty = -2
+    get_eff(rev(c(.025, .050, .075, .15, .3, .2, .2))),
+    #if uncertainty = -1
+    get_eff(rev(c(.025, .050, .15, .3, .25, .15, .075))),
+    #if uncertainty = 0
+    get_eff(c(.025, .050, .3, .15, .25, .15, .075)),
+     #if uncertainty = 1
+    get_eff(rev(c(.025, .050, .15, .3, .25, .15, .075))),
+     #if uncertainty = 2
+    get_eff(rev(c(.025, .050, .075, .15, .3, .2, .2))),
+    # if uncertainty = 3
+    get_eff(rev(c(.025, .050, .075, .1, .2, .3, .25))),
+    #if uncertainty = 4
+    get_eff(c(0.3, 0.25, 0.2, 0.1, .075, .05, .025))
+  ), 
+  H = 3
+)
+
+p1 <- ggplot(data = h1, mapping = aes(x = Uncertainty, y = Effectiveness)) +
+  geom_jitter(alpha = 0.2, color = "#035AA6") +
+  geom_smooth(method = "lm", color = "#035AA6") +
+  theme_bw() +
+  scale_x_continuous(breaks = -4:4) +
+  scale_y_continuous(breaks = 1:7) +
+  ggtitle("Hypothesis 1") +
+  theme(
+    plot.title = element_text(hjust = 0.5, size = 20),
+    axis.title = element_text(size = 20), 
+    axis.text = element_text(size = 11)
+  )
+
+p2 <- ggplot(data = h2, mapping = aes(x = Uncertainty, y = Effectiveness)) +
+  geom_jitter(alpha = 0.2, color = "#035AA6") +
+  geom_smooth(method = "lm", color = "#035AA6") +
+  theme_bw() +
+  scale_x_continuous(breaks = -4:4) +
+  scale_y_continuous(breaks = 1:7) +
+  ggtitle("Hypothesis 2") +
+  theme(
+    plot.title = element_text(hjust = 0.5, size = 20),
+    axis.title = element_text(size = 20), 
+    axis.text = element_text(size = 11)
+  )
+
+p3 <- ggplot(data = h3, mapping = aes(x = Uncertainty, y = Effectiveness)) +
+  geom_jitter(alpha = 0.2, color = "#035AA6") +
+  geom_smooth(method = "glm", formula = "y ~ poly(x, 2)", color = "#035AA6") +
+  theme_bw() +
+  scale_x_continuous(breaks = -4:4) +
+  scale_y_continuous(breaks = 1:7) +
+  ggtitle("Hypothesis 3") +
+  theme(
+    plot.title = element_text(hjust = 0.5, size = 20),
+    axis.title = element_text(size = 20), 
+    axis.text = element_text(size = 11)
+  )
+
+p <- arrangeGrob(p1, p2, p3, ncol = 3)
+ggsave("images/anticipated.jpg", plot = p, width = 3*5.96, height = 6, units = "in")
+```
+
     
 
 
@@ -2627,6 +2736,32 @@ In support of Hypothesis 2, we find a nonsignificant relationship between ambiti
 :::
 
 
+## Opt-In{.center style='font-size: 70px; text-align: center;' visibility="uncounted"}
+
+## Self-Selection: Hypotheses{visibility="uncounted"}
+
+![](images/opt.jpeg){.absolute bottom="0" right="0" height="440"}
+
+
+. . .
+
+<br></br>
+
+*H1*: **Opt-in** (vs. **opt-out**) mechanisms **decrease** the aggregate **effectiveness** of candidate pools for leadership roles, through...
+
+<br></br>
+
+. . .
+
+*H1a*: **Greater** presence of effectiveness-**inhibiting** traits
+
+. . .
+
+*H1b*: **Greater** presence of effectiveness-**irrelevant** traits
+
+. . .
+
+*H1c*: **Lesser** presence of effectiveness-**inducing** traits
 
 
 ## Uncertainty{.center style='font-size: 70px; text-align: center;' visibility="uncounted"}
