@@ -2631,6 +2631,14 @@ To be able to claim support for the null hypothesis, we ran two additional tests
 
 :::
 
+## Bayes Factors{visibility="uncounted" background-image="images/figure2.jpg" background-size="1850px"} 
+
+<br></br>
+
+```{r}
+#knitr::include_graphics("images/figure2.jpg")
+```
+
 ## Study 2{visibility="uncounted"}
 
 - Expert-evaluated **leadership skills** competition
